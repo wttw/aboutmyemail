@@ -108,7 +108,7 @@ URLs may still work, but are obsolete and should be converted
 to `https`).
 
 A `mailto:` URL allows a mail client to request unsubscription
-non-interactively, withouth the user needing to take any
+non-interactively, without the user needing to take any
 further action, by sending an email to the given address.
 
 An `https:` URL allows a mail client to open a browser for
@@ -165,7 +165,7 @@ click on to go to a webpage to unsubscribe from this
 sender, or manage their subscriptions. This is the
 usual way to comply with [legal requirements](https://wordtothewise.com/2016/04/lets-talk-can-spam/)
 around unsubscription. These requirements are usually
-_not_ satisified by [List-Unsubscribe headers](#faq-list-unsubscribe), so you need this link in
+_not_ satisfied by [List-Unsubscribe headers](#faq-list-unsubscribe), so you need this link in
 addition to those, not instead of.
 
 The expected behaviour for this web page is identical to
@@ -239,12 +239,23 @@ be trusted as a source of email.
 
 [Yahoo](https://senders.yahooinc.com/best-practices/) and
 [Google](https://support.google.com/a/answer/14229414) have
-announced what behaviour they expect to see from well
-behaved bulk senders.
+announced what behaviour they expect to see from well-behaved bulk senders.
 
 If anything on your [Good Practice](/yahoogle) page is red,
 you're probably not complying with their requirements, and
 your delivery is likely to suffer.
+
+## Does the rendered content model device behaviour?
+
+No. The content is rendered by your browser, not by any
+sort of device emulator. The size selector lets you set
+the viewport size by adjusting the size of the iframe it's
+rendered in, but that's all.
+
+## Where are you getting your list of device sizes from?
+
+It's in [this json file](https://github.com/wttw/aboutmyemail/blob/main/viewports.json), initially
+imported from the excellent [viewportsizer.com](https://viewportsizer.com/devices/).
 
 ## But, Steve, you don't follow all these best practices {#faq-but-steve}
 
