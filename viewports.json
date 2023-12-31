@@ -1,1 +1,932 @@
-{"id":"1","name":"Device Viewports","description":"","author":"1","last_modified":"2020-03-21 20:39:28","data":[["","name","phys. <br />width","phys. <br />height","css <br />width","css <br />height","pixel <br />ratio","phys. <br />ppi","css <br />ppi"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Apple\u00a0iPhone X","1125","2436","375","812","3","458","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Apple\u00a0iPhone 6+, 6s+, 7+, 8+","1080","1920","414","736","3","401","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Apple\u00a0iPhone 7, iPhone 8","750","1334","375","667","2","326","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Apple\u00a0iPhone 6, 6s","750","1334","375","667","2","326","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Apple\u00a0iPhone 5","640","1136","320","568","2","326","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Apple\u00a0iPhone 4","640","960","320","480","2","326","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Apple\u00a0iPhone 3","320","480","320","480","1","163","96"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Apple\u00a0iPod Touch","640","1136","320","568","2","326","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","LG\u00a0G5","1440","2560","360","640","4","538","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","LG\u00a0G4","1440","2560","360","640","4","538","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","LG\u00a0G3","1440","2560","360","640","4","538","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","LG\u00a0Optimus G","768","1280","384","640","2","318","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S8+","1440","2960","360","740","4","529","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S8","1440","2960","360","740","4","568","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S7, S7 edge","1440","2560","360","640","4","534","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S6","1440","2560","360","640","4","577","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S5","1080","1920","360","640","3","441","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S4","1080","1920","360","640","3","441","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S4 mini","540","960","360","640","1.5","256","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S3","720","1280","360","640","2","306","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S3 mini","480","800","320","533","1.5","233","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S2","480","800","320","533","1.5","217","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy S","480","800","320","533","1.5","233","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Nexus","720","1200","360","600","2","316","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Note 8","1440","2960","360","740","4","521","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Note 4","1440","2560","360","640","4","515","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Note 3","1080","1920","360","640","3","386","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Note 2","720","1280","360","640","2","267","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Note","800","1280","400","640","2","285","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","LG\u00a0Nexus 5","1080","1920","360","640","3","445","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","LG\u00a0Nexus 4","768","1280","384","640","2","320","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Microsoft\u00a0Lumia 1520","1080","1920","432","768","2.5","367","240"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Microsoft\u00a0Lumia 1020","768","1280","320","480","2.4","332","220"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Microsoft\u00a0Lumia 925","768","1280","320","480","2.4","332","220"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Microsoft\u00a0Lumia 920","768","1280","320","480","2.4","332","220"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Microsoft\u00a0Lumia 900","480","800","320","480","1.5","217","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Microsoft\u00a0Lumia 830","720","1280","320","480","2","294","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Microsoft\u00a0Lumia 620","480","800","320","480","1.5","252","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Motorola\u00a0Nexus 6","1440","2560","412","690","3.5","493","336"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","HTC\u00a0One","1080","1920","360","640","3","468","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","HTC\u00a08X","720","1280","320","480","3","341","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","HTC\u00a0Evo 3D","540","960","360","640","1.5","256","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Sony\u00a0Xperia Z3","1080","1920","360","598","3","424","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Sony\u00a0Xperia Z","1080","1920","360","640","3","443","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Sony\u00a0Xperia S","720","1280","360","640","2","342","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Sony\u00a0Xperia P","540","960","360","640","1.5","275","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Xiaomi\u00a0Redmi Note 5","1080","2160","393","786","2.75","403","264"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Xiaomi\u00a0Mi 4","1080","1920","360","640","3","441","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Xiaomi\u00a0Mi 3","1080","1920","360","640","3","441","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Lenovo\u00a0K900","1080","1920","360","640","3","401","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Pantech\u00a0Vega n\u00b06","1080","1920","360","640","3","373","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Blackberry\u00a0Leap","720","1280","390","695","2","294","177"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Blackberry\u00a0Passport","1440","1440","504","504","3","453","274"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Blackberry\u00a0Classic","720","720","390","390","1.8","294","177"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Blackberry\u00a0Q10","720","720","346","346","2","328","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Blackberry\u00a0Z30","720","1280","360","640","2","295","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Blackberry\u00a0Z10","768","1280","384","640","2","355","192"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Blackberry\u00a0Torch 9800","360","480","360","480","1","187","96"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","ZTE\u00a0Grand S","1080","1920","360","640","3","441","288"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","ZTE\u00a0Open (Firefox OS)","480","720","320","480","1.5","165","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy Note 9","1440","2960","360","740","4","521","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy Note 10","1080","2280","360","718","4","401","370"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy Note 10+","1080","2280","360","718","4","401","370"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy S9","1440","2960","360","740","4","529","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy S9+","1440","2960","360","740","4","529","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy S10","1440","3040","360","740","4","522","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy S10+","1440","3040","360","740","4","522","384"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy S20","1440","3200","","","","563",""],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy S20+","1440","3200","","","","525",""],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Samsung Galaxy S20 Ultra","1440","3200","","","","511",""],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Apple\u00a0iPad Pro","2048","2732","1024","1366","2","265","192"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Apple\u00a0iPad Pro 9.7","1536","2048","768","1024","2","264","192"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Apple\u00a0iPad 3, 4, Air, Air2","1536","2048","768","1024","2","264","192"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Apple\u00a0iPad 1, 2","768","1024","768","1024","1","132","96"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Apple\u00a0iPad mini 2, 3, 4","1536","2048","768","1024","2","326","192"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Apple\u00a0iPad mini","768","1024","768","1024","1","163","96"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Tab 3 10\"","800","1280","800","1280","1","149","96"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Tab 2 10\"","800","1280","800","1280","1","149","96"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Tab (8.9\")","800","1280","800","1280","1","170","96"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Samsung\u00a0Galaxy Tab 2 (7\")","600","1024","600","1024","1","170","96"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Samsung\u00a0Nexus 10","1600","2560","800","1280","2","300","192"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","HTC\u00a0Nexus 9","1538","2048","768","1024","2","281","192"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Asus\u00a0Nexus 7 (v2)","1080","1920","600","960","2","323","192"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Asus\u00a0Nexus 7 (v1)","800","1280","604","966","1.325","216","127"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","LG\u00a0G Pad 8.3","1200","1920","600","960","2","273","192"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Amazon\u00a0Kindle Fire HD 8.9","1200","1920","800","1280","1.5","254","144"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Amazon\u00a0Kindle Fire HD 7","800","1280","480","800","1.5","216","144"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Amazon\u00a0Kindle Fire","600","1024","600","1024","1","167","96"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Microsoft\u00a0Surface Pro 3","1440","2160","1024","1440","1.5 / 1.4","216","144"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Microsoft\u00a0Surface Pro 2","1080","1920","720","1280","1.5","207","144"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Microsoft\u00a0Surface Pro","1080","1920","720","1280","1.5","207","144"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Microsoft\u00a0Surface","768","1366","768","1366","1","148","96"],["<i class=\"fa fa-tablet\" aria-hidden=\"true\"></i>","Blackberry\u00a0Playbook","600","1024","600","1024","1","169","96"],["<i class=\"fa fa-eye\" aria-hidden=\"true\"></i>","Google\u00a0Glass","640","360","427","240","1.5","-","144"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Google Pixel","1080","1920","411","731","2.6","-","-"],["<i class=\"fa fa-mobile\" aria-hidden=\"true\"></i>","Google Pixel XL","1440","2560","411","731","3.5","-","-"],["<i class=\"fa fa-clock-o\" aria-hidden=\"true\"></i>","Apple Watch Series 1, 3 (38mm)","272","340","272","340","-","302","-"],["<i class=\"fa fa-clock-o\" aria-hidden=\"true\"></i>","Apple Watch Series 1, 3 (42mm)","312","390","312","390","-","302","-"],["<i class=\"fa fa-clock-o\" aria-hidden=\"true\"></i>","Apple Watch Series 5 (40mm)","324","394","324","394","-","326","-"],["<i class=\"fa fa-clock-o\" aria-hidden=\"true\"></i>","Apple Watch Series 5 (44mm)","368","448","368","448","-","326","-"]],"options":{"last_editor":1,"table_head":true,"table_foot":false,"alternating_row_colors":false,"row_hover":true,"print_name":false,"print_name_position":"above","print_description":false,"print_description_position":"below","extra_css_classes":"","use_datatables":true,"datatables_sort":true,"datatables_filter":true,"datatables_paginate":false,"datatables_lengthchange":true,"datatables_paginate_entries":10,"datatables_info":true,"datatables_scrollx":false,"datatables_custom_commands":"\"columnDefs\": [ { \"orderable\": false, \"targets\": [ 0, 1, ] } ], \"order\": [ [ 6, \"desc\" ] ],\"dom\": \"Wlfrtip\",\"oColumnFilterWidgets\": { \"aiExclude\": [ 0,1,4,5,6,7,9,8 ] }, \"language\": { \"search\": \"\", \"searchPlaceholder\": \"Search for a device...\" }"},"visibility":{"rows":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"columns":[1,1,1,1,1,1,1,1,1]}}
+[
+  {
+    "id": 1,
+    "name": "Amazon Kindle Fire",
+    "w": 600,
+    "h": 1024
+  },
+  {
+    "id": 2,
+    "name": "Amazon Kindle Fire HD 6",
+    "w": 480,
+    "h": 800
+  },
+  {
+    "id": 3,
+    "name": "Amazon Kindle Fire HD 7",
+    "w": 480,
+    "h": 800
+  },
+  {
+    "id": 4,
+    "name": "Amazon Kindle Fire HD 8.9",
+    "w": 800,
+    "h": 1280
+  },
+  {
+    "id": 5,
+    "name": "Amazon Kindle Fire HD 10",
+    "w": 480,
+    "h": 800
+  },
+  {
+    "id": 6,
+    "name": "Apple iPad 1",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 7,
+    "name": "Apple iPad 2",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 8,
+    "name": "Apple iPad 3",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 9,
+    "name": "Apple iPad 4",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 10,
+    "name": "Apple iPad Air",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 11,
+    "name": "Apple iPad Air2",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 12,
+    "name": "Apple iPad mini",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 13,
+    "name": "Apple iPad mini 2",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 14,
+    "name": "Apple iPad mini 3",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 15,
+    "name": "Apple iPad mini 4",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 16,
+    "name": "Apple iPad Pro",
+    "w": 1024,
+    "h": 1366
+  },
+  {
+    "id": 17,
+    "name": "Apple iPad Pro 9.7",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 18,
+    "name": "Apple iPhone 3",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 19,
+    "name": "Apple iPhone 3GS",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 20,
+    "name": "Apple iPhone 4",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 21,
+    "name": "Apple iPhone 4s",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 22,
+    "name": "Apple iPhone 5",
+    "w": 320,
+    "h": 568
+  },
+  {
+    "id": 23,
+    "name": "Apple iPhone 5c",
+    "w": 320,
+    "h": 568
+  },
+  {
+    "id": 24,
+    "name": "Apple iPhone 5s",
+    "w": 320,
+    "h": 568
+  },
+  {
+    "id": 25,
+    "name": "Apple iPhone 6",
+    "w": 375,
+    "h": 667
+  },
+  {
+    "id": 26,
+    "name": "Apple iPhone 6+",
+    "w": 414,
+    "h": 736
+  },
+  {
+    "id": 27,
+    "name": "Apple iPhone 6s",
+    "w": 375,
+    "h": 667
+  },
+  {
+    "id": 28,
+    "name": "Apple iPhone 6s+",
+    "w": 414,
+    "h": 736
+  },
+  {
+    "id": 29,
+    "name": "Apple iPhone 7",
+    "w": 375,
+    "h": 667
+  },
+  {
+    "id": 30,
+    "name": "Apple iPhone 7+",
+    "w": 414,
+    "h": 736
+  },
+  {
+    "id": 31,
+    "name": "Apple iPhone 8",
+    "w": 375,
+    "h": 667
+  },
+  {
+    "id": 32,
+    "name": "Apple iPhone 8+",
+    "w": 414,
+    "h": 736
+  },
+  {
+    "id": 33,
+    "name": "Apple iPhone 11",
+    "w": 276,
+    "h": 598
+  },
+  {
+    "id": 34,
+    "name": "Apple iPhone 11 Pro",
+    "w": 375,
+    "h": 812
+  },
+  {
+    "id": 35,
+    "name": "Apple iPhone 11 Pro Max",
+    "w": 414,
+    "h": 896
+  },
+  {
+    "id": 36,
+    "name": "Apple iPhone 12",
+    "w": 390,
+    "h": 844
+  },
+  {
+    "id": 37,
+    "name": "Apple iPhone 12 Mini",
+    "w": 360,
+    "h": 780
+  },
+  {
+    "id": 38,
+    "name": "Apple iPhone 12 Pro",
+    "w": 390,
+    "h": 844
+  },
+  {
+    "id": 39,
+    "name": "Apple iPhone 12 Pro Max",
+    "w": 428,
+    "h": 926
+  },
+  {
+    "id": 40,
+    "name": "Apple iPhone SE",
+    "w": 214,
+    "h": 379
+  },
+  {
+    "id": 41,
+    "name": "Apple iPhone SE 2020",
+    "w": 250,
+    "h": 445
+  },
+  {
+    "id": 42,
+    "name": "Apple iPhone X",
+    "w": 375,
+    "h": 812
+  },
+  {
+    "id": 43,
+    "name": "Apple iPhone XR",
+    "w": 276,
+    "h": 598
+  },
+  {
+    "id": 44,
+    "name": "Apple iPhone XS",
+    "w": 375,
+    "h": 812
+  },
+  {
+    "id": 45,
+    "name": "Apple iPhone XS Max",
+    "w": 414,
+    "h": 896
+  },
+  {
+    "id": 46,
+    "name": "Apple iPod Touch",
+    "w": 320,
+    "h": 568
+  },
+  {
+    "id": 47,
+    "name": "Apple Watch Series 1 (38mm)",
+    "w": 272,
+    "h": 340
+  },
+  {
+    "id": 48,
+    "name": "Apple Watch Series 1 (42mm)",
+    "w": 312,
+    "h": 390
+  },
+  {
+    "id": 49,
+    "name": "Apple Watch Series 3 (38mm)",
+    "w": 272,
+    "h": 340
+  },
+  {
+    "id": 50,
+    "name": "Apple Watch Series 3 (42mm)",
+    "w": 312,
+    "h": 390
+  },
+  {
+    "id": 51,
+    "name": "Apple Watch Series 5 (40mm)",
+    "w": 324,
+    "h": 394
+  },
+  {
+    "id": 52,
+    "name": "Apple Watch Series 5 (44mm)",
+    "w": 368,
+    "h": 448
+  },
+  {
+    "id": 53,
+    "name": "Asus Nexus 7 (v1)",
+    "w": 604,
+    "h": 966
+  },
+  {
+    "id": 54,
+    "name": "Asus Nexus 7 (v2)",
+    "w": 600,
+    "h": 960
+  },
+  {
+    "id": 55,
+    "name": "Blackberry Classic",
+    "w": 390,
+    "h": 390
+  },
+  {
+    "id": 56,
+    "name": "Blackberry Classic Non Camera",
+    "w": 427,
+    "h": 240
+  },
+  {
+    "id": 57,
+    "name": "Blackberry Leap",
+    "w": 390,
+    "h": 695
+  },
+  {
+    "id": 58,
+    "name": "Blackberry Passport",
+    "w": 504,
+    "h": 504
+  },
+  {
+    "id": 59,
+    "name": "Blackberry Playbook",
+    "w": 600,
+    "h": 1024
+  },
+  {
+    "id": 60,
+    "name": "Blackberry Porsche Design P9982",
+    "w": 427,
+    "h": 256
+  },
+  {
+    "id": 61,
+    "name": "Blackberry Priv",
+    "w": 854,
+    "h": 480
+  },
+  {
+    "id": 62,
+    "name": "Blackberry Q10",
+    "w": 346,
+    "h": 346
+  },
+  {
+    "id": 63,
+    "name": "Blackberry Torch 9800",
+    "w": 360,
+    "h": 480
+  },
+  {
+    "id": 64,
+    "name": "Blackberry Torch 9810",
+    "w": 360,
+    "h": 480
+  },
+  {
+    "id": 65,
+    "name": "Blackberry Z10",
+    "w": 384,
+    "h": 640
+  },
+  {
+    "id": 66,
+    "name": "Blackberry Z30",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 67,
+    "name": "Google Glass",
+    "w": 427,
+    "h": 240
+  },
+  {
+    "id": 68,
+    "name": "Google Pixel",
+    "w": 411,
+    "h": 731
+  },
+  {
+    "id": 69,
+    "name": "Google Pixel C",
+    "w": 534,
+    "h": 400
+  },
+  {
+    "id": 70,
+    "name": "Google Pixel XL",
+    "w": 411,
+    "h": 731
+  },
+  {
+    "id": 71,
+    "name": "HTC 8X",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 72,
+    "name": "HTC Desire",
+    "w": 160,
+    "h": 267
+  },
+  {
+    "id": 73,
+    "name": "HTC Desire HD",
+    "w": 160,
+    "h": 267
+  },
+  {
+    "id": 74,
+    "name": "HTC Evo 3D",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 75,
+    "name": "HTC Nexus 9",
+    "w": 768,
+    "h": 1024
+  },
+  {
+    "id": 76,
+    "name": "HTC One",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 77,
+    "name": "HTC One M8",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 78,
+    "name": "HTC One M9",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 79,
+    "name": "Lenovo K900",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 80,
+    "name": "LG G3",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 81,
+    "name": "LG G4",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 82,
+    "name": "LG G5",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 83,
+    "name": "LG G Pad 8.3",
+    "w": 600,
+    "h": 960
+  },
+  {
+    "id": 84,
+    "name": "LG Nexus 4",
+    "w": 384,
+    "h": 640
+  },
+  {
+    "id": 85,
+    "name": "LG Nexus 5",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 86,
+    "name": "LG Optimus G",
+    "w": 384,
+    "h": 640
+  },
+  {
+    "id": 87,
+    "name": "Microsoft Lumia 620",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 88,
+    "name": "Microsoft Lumia 830",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 89,
+    "name": "Microsoft Lumia 900",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 90,
+    "name": "Microsoft Lumia 920",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 91,
+    "name": "Microsoft Lumia 925",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 92,
+    "name": "Microsoft Lumia 1020",
+    "w": 320,
+    "h": 480
+  },
+  {
+    "id": 93,
+    "name": "Microsoft Lumia 1520",
+    "w": 432,
+    "h": 768
+  },
+  {
+    "id": 94,
+    "name": "Microsoft Surface",
+    "w": 768,
+    "h": 1366
+  },
+  {
+    "id": 95,
+    "name": "Microsoft Surface Book",
+    "w": 1000,
+    "h": 667
+  },
+  {
+    "id": 96,
+    "name": "Microsoft Surface Pro",
+    "w": 720,
+    "h": 1280
+  },
+  {
+    "id": 97,
+    "name": "Microsoft Surface Pro 2",
+    "w": 720,
+    "h": 1280
+  },
+  {
+    "id": 98,
+    "name": "Microsoft Surface Pro 3",
+    "w": 1024,
+    "h": 1440
+  },
+  {
+    "id": 99,
+    "name": "Microsoft Surface Pro 4",
+    "w": 608,
+    "h": 912
+  },
+  {
+    "id": 100,
+    "name": "Motorola Nexus 6",
+    "w": 412,
+    "h": 690
+  },
+  {
+    "id": 101,
+    "name": "Pantech Vega n°6",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 102,
+    "name": "Samsung Galaxy Nexus",
+    "w": 360,
+    "h": 600
+  },
+  {
+    "id": 103,
+    "name": "Samsung Galaxy Nexus S",
+    "w": 160,
+    "h": 267
+  },
+  {
+    "id": 104,
+    "name": "Samsung Galaxy Note",
+    "w": 400,
+    "h": 640
+  },
+  {
+    "id": 105,
+    "name": "Samsung Galaxy Note 2",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 106,
+    "name": "Samsung Galaxy Note 3",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 107,
+    "name": "Samsung Galaxy Note 4",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 108,
+    "name": "Samsung Galaxy Note 8",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 109,
+    "name": "Samsung Galaxy Note 9",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 110,
+    "name": "Samsung Galaxy Note 10",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 111,
+    "name": "Samsung Galaxy Note 10",
+    "w": 360,
+    "h": 718
+  },
+  {
+    "id": 112,
+    "name": "Samsung Galaxy Note 10+",
+    "w": 360,
+    "h": 718
+  },
+  {
+    "id": 113,
+    "name": "Samsung Galaxy S",
+    "w": 320,
+    "h": 533
+  },
+  {
+    "id": 114,
+    "name": "Samsung Galaxy S2",
+    "w": 320,
+    "h": 533
+  },
+  {
+    "id": 115,
+    "name": "Samsung Galaxy S3",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 116,
+    "name": "Samsung Galaxy S3 mini",
+    "w": 320,
+    "h": 533
+  },
+  {
+    "id": 117,
+    "name": "Samsung Galaxy S4",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 118,
+    "name": "Samsung Galaxy S4 mini",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 119,
+    "name": "Samsung Galaxy S5",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 120,
+    "name": "Samsung Galaxy S6",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 121,
+    "name": "Samsung Galaxy S7",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 122,
+    "name": "Samsung Galaxy S7 edge",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 123,
+    "name": "Samsung Galaxy S8",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 124,
+    "name": "Samsung Galaxy S8+",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 125,
+    "name": "Samsung Galaxy S9",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 126,
+    "name": "Samsung Galaxy S9+",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 127,
+    "name": "Samsung Galaxy S10",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 128,
+    "name": "Samsung Galaxy S10+",
+    "w": 360,
+    "h": 740
+  },
+  {
+    "id": 129,
+    "name": "Samsung Galaxy S10 Lite",
+    "w": 360,
+    "h": 800
+  },
+  {
+    "id": 130,
+    "name": "Samsung Galaxy S20",
+    "w": 480,
+    "h": 1067
+  },
+  {
+    "id": 131,
+    "name": "Samsung Galaxy S20+",
+    "w": 480,
+    "h": 1067
+  },
+  {
+    "id": 132,
+    "name": "Samsung Galaxy S20 Ultra",
+    "w": 480,
+    "h": 1067
+  },
+  {
+    "id": 133,
+    "name": "Samsung Galaxy Tab 2 10\"",
+    "w": 800,
+    "h": 1280
+  },
+  {
+    "id": 134,
+    "name": "Samsung Galaxy Tab 2 (7\")",
+    "w": 600,
+    "h": 1024
+  },
+  {
+    "id": 135,
+    "name": "Samsung Galaxy Tab 3 10\"",
+    "w": 800,
+    "h": 1280
+  },
+  {
+    "id": 136,
+    "name": "Samsung Galaxy Tab (8.9\")",
+    "w": 800,
+    "h": 1280
+  },
+  {
+    "id": 137,
+    "name": "Samsung Nexus 10",
+    "w": 800,
+    "h": 1280
+  },
+  {
+    "id": 138,
+    "name": "Sony Xperia P",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 139,
+    "name": "Sony Xperia S",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 140,
+    "name": "Sony Xperia Z",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 141,
+    "name": "Sony Xperia Z3",
+    "w": 360,
+    "h": 598
+  },
+  {
+    "id": 142,
+    "name": "Sony Xperia Z3 Plus",
+    "w": 360,
+    "h": 598
+  },
+  {
+    "id": 143,
+    "name": "Sony Xperia Z4",
+    "w": 534,
+    "h": 854
+  },
+  {
+    "id": 144,
+    "name": "Sony Xperia Z5",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 145,
+    "name": "Xiaomi Mi 3",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 146,
+    "name": "Xiaomi Mi 4",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 147,
+    "name": "Xiaomi Redmi Note 3",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 148,
+    "name": "Xiaomi Redmi Note 5",
+    "w": 393,
+    "h": 786
+  },
+  {
+    "id": 149,
+    "name": "Xiaomi Redmi Note 7",
+    "w": 360,
+    "h": 780
+  },
+  {
+    "id": 150,
+    "name": "Xiaomi Redmi Note 8",
+    "w": 360,
+    "h": 780
+  },
+  {
+    "id": 151,
+    "name": "Xiaomi Redmi Note 8 Pro",
+    "w": 360,
+    "h": 780
+  },
+  {
+    "id": 152,
+    "name": "Xiaomi Redmi Note 9",
+    "w": 360,
+    "h": 780
+  },
+  {
+    "id": 153,
+    "name": "Xiaomi Redmi Note 9 Pro",
+    "w": 360,
+    "h": 800
+  },
+  {
+    "id": 154,
+    "name": "ZTE Grand S",
+    "w": 360,
+    "h": 640
+  },
+  {
+    "id": 155,
+    "name": "ZTE Open (Firefox OS)",
+    "w": 320,
+    "h": 480
+  }
+]

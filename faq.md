@@ -13,6 +13,11 @@ to send email that uses a particular return path (or HELO).
 It can return a variety of possible statuses, but for our
 purposes anything that isn't "pass" is a fail.
 
+We only use the return-path / 821.From to check SPF, we
+don't check the HELO value. This isn't exactly how SPF
+is specified, but gives far more useful results when diagnosing
+authentication issues.
+
 ## SPF DNS Queries {#faq-spf-dns}
 
 Querying SPF can involve follow pointers to other records,
