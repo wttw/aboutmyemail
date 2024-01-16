@@ -1,0 +1,4 @@
+package: aboutmyemail
+generate:
+  client: true
+output: api_client.gen.go

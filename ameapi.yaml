@@ -1,0 +1,195 @@
+openapi: 3.0.3
+info:
+  title: AboutMy.email
+  description: AboutMy.email
+  version: 1.0.0
+security:
+  - BearerAuth: []
+servers:
+  - url: 'https://aboutmy.email/api/v1'
+paths:
+  /emails:
+    post:
+      summary: Submit new message for processing
+      operationId: email
+      description: Submit new message for processing
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              $ref: "#/components/schemas/SubmitForm"
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Submit"
+      responses:
+        '200':
+          description: Submitted successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SubmitSuccess"
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/400Error"
+        '500':
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/500Error"
+      callbacks:
+        progress:
+          "{$request.body#progressUrl}":
+            post:
+              requestBody:
+                required: true
+                content:
+                  application/json:
+                    schema:
+                      $ref: "#/components/schemas/StatusResult"
+              responses:
+                '200':
+                  description: OK
+        finished:
+          "{$request.body#progressUrl}":
+            post:
+              requestBody:
+                required: true
+                content:
+                  application/json:
+                    schema:
+                      $ref: "#/components/schemas/StatusResult"
+              responses:
+                '200':
+                  description: OK
+  /emails/{resultID}:
+    get:
+      summary: Get status of a mail being processed
+      operationId: emailStatus
+      description: Get status of a mail being processed
+      parameters:
+        - in: path
+          name: resultID
+          schema:
+            type: string
+          required: true
+          description: The result ID returned from a previous POST to /emails
+      responses:
+        '200':
+          description: Responses is being processed or has completed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StatusResult"
+        '404':
+          description: Failed to find mail being processed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/400Error"
+        '500':
+          description: Internal error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/500Error"
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+  schemas:
+    Submit:
+      required:
+        - payload
+        - from
+        - to
+        - ip
+      properties:
+        payload:
+          type: string
+        from:
+          type: string
+          format: idn-email
+        to:
+          type: string
+          format: idn-email
+        ip:
+          type: string
+          format: "ip"
+        smtputf8:
+          type: boolean
+        token:
+          type: string
+        progressUrl:
+          type: string
+          format: uri
+        finishedUrl:
+          type: string
+          format: uri
+    SubmitForm:
+      required:
+        - payload
+        - from
+        - to
+        - ip
+      properties:
+        payload:
+          type: string
+          format: binary
+        from:
+          type: string
+          format: idn-email
+        to:
+          type: string
+          format: idn-email
+        ip:
+          type: string
+          format: "ip"
+        smtputf8:
+          type: boolean
+        token:
+          type: string
+        progressUrl:
+          type: string
+          format: uri
+        finishedUrl:
+          type: string
+          format: uri
+    SubmitSuccess:
+      required:
+        - id
+      properties:
+        id:
+          type: string
+    StatusResult:
+      required:
+        - id
+      properties:
+        id:
+          type: string
+        url:
+          type: string
+          format: uri
+        messages:
+          type: array
+          items:
+            type: string
+        token:
+          type: string
+    400Error:
+      required:
+        - message
+      properties:
+        message:
+          type: string
+    500Error:
+      required:
+        - message
+      properties:
+        message:
+          type: string

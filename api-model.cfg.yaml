@@ -1,0 +1,4 @@
+package: aboutmyemail
+generate:
+  models: true
+output: api_model.gen.go
