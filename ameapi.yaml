@@ -80,7 +80,7 @@ paths:
           description: The result ID returned from a previous POST to /emails
       responses:
         '200':
-          description: Responses is being processed or has completed
+          description: Response is being processed or has completed
           content:
             application/json:
               schema:
@@ -93,6 +93,63 @@ paths:
                 $ref: "#/components/schemas/400Error"
         '500':
           description: Internal error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/500Error"
+  /style/content:
+    post:
+      summary: Upload content files
+      operationId: contentPost
+      description: Set whitelabel result templates
+      requestBody:
+        required: true
+        description: files to upload
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                filename:
+                  type: array
+                  items:
+                    type: string
+                    format: binary
+      responses:
+        '200':
+          description: Successfully uploaded files
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UploadResult"
+        '500':
+          description: Internal error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/500Error"
+        '400':
+          description: Bad request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/500Error"
+  /style/publish:
+    post:
+      summary: Publish staged content
+      operationId: stylePublish
+      description: Publish staged content to production
+      responses:
+        '200':
+          description: Successfully published files
+        '500':
+          description: Internal error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/500Error"
+        '400':
+          description: Bad request
           content:
             application/json:
               schema:
@@ -112,25 +169,36 @@ components:
       properties:
         payload:
           type: string
+          description: The headers and body of the message
         from:
           type: string
           format: idn-email
+          description: The email address for MAIL FROM
         to:
           type: string
           format: idn-email
+          description: The email address for RCPT TO
         ip:
           type: string
           format: "ip"
+          description: The IP address the mail is sent from
         smtputf8:
           type: boolean
+          description: Whether the email is localized
+        options:
+          type: string
+          description: "'stage' for staged rendering"
         token:
           type: string
+          description: Opaque token returned in response
         progressUrl:
           type: string
           format: uri
+          description: Regular callbacks for progress messages
         finishedUrl:
           type: string
           format: uri
+          description: Callback when processing is complete
     SubmitForm:
       required:
         - payload
@@ -141,46 +209,71 @@ components:
         payload:
           type: string
           format: binary
+          description: The headers and body of the message
         from:
           type: string
           format: idn-email
+          description: The email address for MAIL FROM
         to:
           type: string
           format: idn-email
+          description: The email address for RCPT TO
         ip:
           type: string
           format: "ip"
+          description: The IP address the mail is sent from
         smtputf8:
           type: boolean
+          description: Whether the email is localized
+        options:
+          type: string
+          description: "'stage' for staged rendering"
         token:
           type: string
+          description: Opaque token returned in response
         progressUrl:
           type: string
           format: uri
+          description: Regular callbacks for progress messages
         finishedUrl:
           type: string
           format: uri
+          description: Callback when processing is complete
     SubmitSuccess:
       required:
         - id
       properties:
         id:
           type: string
+          description: Identifier for the result
     StatusResult:
       required:
         - id
       properties:
         id:
           type: string
+          description: Identifier for the result
         url:
           type: string
           format: uri
+          description: Where human readable result is available
         messages:
           type: array
+          description: Zero or more processing update messages
           items:
             type: string
         token:
           type: string
+          description: Opaque token copied from request
+    UploadResult:
+      required:
+        - messages
+      properties:
+        messages:
+          type: array
+          description: Diagnostics about uploaded files
+          items:
+            type: string
     400Error:
       required:
         - message

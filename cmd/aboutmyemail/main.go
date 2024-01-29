@@ -17,7 +17,7 @@ import (
 )
 
 type CLI struct {
-	Server string `env:"MYEMAIL_SERVER" help:"The api endpoint to use" default:"https://aboutmy.email/"`
+	Server string `env:"MYEMAIL_SERVER" help:"The api endpoint to use" default:"https://api.aboutmy.email/api/v1"`
 	ApiKey string `env:"MYEMAIL_APIKEY" help:"The api key to use for authorization"`
 	Email  []byte `arg:"" help:"File containing raw email" type:"filecontent"`
 	From   string `help:"Email address for return path" placeholder:"email@address"`
@@ -26,12 +26,20 @@ type CLI struct {
 	Helo   string `help:"Value for mailserver HELO" placeholder:"host.name"`
 	Ascii  bool   `help:"Disable internationalization"`
 	Quiet  bool   `help:"Don't display parameters or progress"`
+	Staged bool   `help:"Display result using staged whitelabel configuration"`
 	Open   bool   `help:"Open result in browser"`
 }
 
 func main() {
 	cli := CLI{}
-	_ = kong.Parse(&cli)
+	_ = kong.Parse(&cli,
+		kong.Name("aboutmyemail"),
+		kong.Description("Tool to submit messages via the aboutmy.email API"),
+		kong.UsageOnError(),
+		kong.ConfigureHelp(kong.HelpOptions{Compact: true}),
+		kong.Vars{
+			"version": "0.1",
+		})
 
 	if cli.From == "" || cli.To == "" {
 		msg, err := mail.ReadMessage(bytes.NewReader(cli.Email))
@@ -83,12 +91,18 @@ func main() {
 	defer cancel()
 
 	smtputf8 := !cli.Ascii
+	var options string
+	if cli.Staged {
+		options = "stage"
+	}
+
 	response, err := client.EmailWithResponse(ctx, aboutmyemail.EmailJSONRequestBody{
 		From:     cli.From,
 		Ip:       cli.Ip,
 		Payload:  string(cli.Email),
 		Smtputf8: &smtputf8,
 		To:       cli.To,
+		Options:  &options,
 	})
 	if err != nil {
 		fatal("Failed to submit email: %s", err)
@@ -148,6 +162,7 @@ func main() {
 			}
 			os.Exit(0)
 		}
+		time.Sleep(time.Second)
 	}
 }
 
