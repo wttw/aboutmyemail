@@ -6,6 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/alecthomas/kong"
+	"github.com/carlmjohnson/versioninfo"
 	"github.com/fatih/color"
 	"github.com/toqueteos/webbrowser"
 	"github.com/wttw/aboutmyemail"
@@ -38,7 +39,7 @@ func main() {
 		kong.UsageOnError(),
 		kong.ConfigureHelp(kong.HelpOptions{Compact: true}),
 		kong.Vars{
-			"version": "0.1",
+			"version": versioninfo.Short(),
 		})
 
 	if cli.From == "" || cli.To == "" {
