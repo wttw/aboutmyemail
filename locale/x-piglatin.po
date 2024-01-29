@@ -1,0 +1,1323 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Turscar Inc
+# This file is distributed under the same license as the AboutMyEmail package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AboutMyEmail\n"
+"Report-Msgid-Bugs-To: steve-i18n-bugs@blighty.com\n"
+"POT-Creation-Date: 2024-01-29 09:27+0000\n"
+"PO-Revision-Date: 2024-01-29 09:27+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: x-piglatin\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../templates/aboutus.tpl:1
+#, go-template
+msgid "About Us"
+msgstr "outAbay Usay"
+
+#: ../templates/bimi.tpl:1
+#, go-template
+msgid "Brand Indicators (BIMI)"
+msgstr "andBray icatorsInday (BIMIay)"
+
+#. TRANSLATORS: Selector for BIMI
+#: ../templates/bimi.tpl:8
+#, go-template
+msgid "Selector"
+msgstr "electorSay"
+
+#. TRANSLATORS: Internet domain for BIMI
+#: ../templates/bimi.tpl:13
+#, go-template
+msgid "Domain"
+msgstr "omainDay"
+
+#: ../templates/bimi.tpl:14
+#, go-template
+msgid "from From: header"
+msgstr "omfray omFray: eaderhay"
+
+#: ../templates/bimi.tpl:14
+#, go-template
+msgid "organizational domain"
+msgstr "organizationalyay omainday"
+
+#. TRANSLATORS: The internet hostname that provides a BIMI policy
+#: ../templates/bimi.tpl:19
+#, go-template
+msgid "Policy hostname"
+msgstr "olicyPay ostnamehay"
+
+#. TRANSLATORS: The policy DNS record for BIMI
+#: ../templates/bimi.tpl:24
+#, go-template
+msgid "Policy record"
+msgstr "olicyPay ecordray"
+
+#: ../templates/bimi.tpl:30
+#, go-template
+msgid "Declined"
+msgstr "eclinedDay"
+
+#: ../templates/bimi.tpl:31
+#, go-format, go-template
+msgid "%s is explicitly not offering BIMI"
+msgstr "%say isyay explicitlyyay otnay offeringyay BIMIay"
+
+#: ../templates/bimi.tpl:35 ../templates/bimi.tpl:40
+#, go-template
+msgid "Image"
+msgstr "ageImay"
+
+#: ../templates/bimi.tpl:45
+#, go-template
+msgid "Image Content-Type"
+msgstr "ageImay ontentCay-eTypay"
+
+#: ../templates/bimi.tpl:49
+#, go-template
+msgid "Image Content-Encoding"
+msgstr "ageImay ontentCay-odingEncay"
+
+#: ../templates/bimi.tpl:53
+#, go-template
+msgid "Image size"
+msgstr "ageImay izesay"
+
+#: ../templates/bimi.tpl:59
+#, go-template
+msgid "SVG Version"
+msgstr "SVGay ersionVay"
+
+#: ../templates/bimi.tpl:63
+#, go-template
+msgid "wrong version"
+msgstr "ongwray ersionvay"
+
+#: ../templates/bimi.tpl:68
+#, go-template
+msgid "SVG Profile"
+msgstr "SVGay ofilePray"
+
+#: ../templates/bimi.tpl:72
+#, go-format, go-template
+msgid "not %s"
+msgstr "otnay %say"
+
+#: ../templates/bimi.tpl:77
+#, go-template
+msgid "SVG View Box"
+msgstr "SVGay iewVay oxBay"
+
+#: ../templates/bimi.tpl:83
+#, go-template
+msgid "Evidence URL"
+msgstr "idenceEvay URLay"
+
+#. TRANSLATORS: The domain names in a BIMI certificate
+#: ../templates/bimi.tpl:89
+#, go-template
+msgid "Certificate names"
+msgstr "ertificateCay amesnay"
+
+#: ../templates/bimi.tpl:94
+#, go-template
+msgid "BIMI Certificate"
+msgstr "BIMIay ertificateCay"
+
+#: ../templates/bimi.tpl:100
+#, go-template
+msgid "Certificate Validates"
+msgstr "ertificateCay alidatesVay"
+
+#: ../templates/bimi.tpl:110
+#, go-template
+msgid "Certificate Authority"
+msgstr "ertificateCay uthorityAay"
+
+#: ../templates/bimi.tpl:116
+#, go-template
+msgid "Embedded image identical"
+msgstr "eddedEmbay imageyay identicalyay"
+
+#: ../templates/bimi.tpl:124
+#, go-template
+msgid "Raw Image"
+msgstr "awRay ageImay"
+
+#: ../templates/components.tpl:21
+#, go-template
+msgid "No"
+msgstr "oNay"
+
+#: ../templates/components.tpl:28
+#, go-template
+msgid "Yes"
+msgstr "esYay"
+
+#: ../templates/components.tpl:66
+#, go-template
+msgid "Copy to clipboard"
+msgstr "opyCay otay ipboardclay"
+
+#: ../templates/components.tpl:71
+#, go-template
+msgid "Wrap lines"
+msgstr "apWray ineslay"
+
+#: ../templates/components.tpl:85 ../templates/dkim.tpl:11 ../templates/dmarc.tpl:97 ../templates/dmarc.tpl:99 ../templates/dmarc.tpl:101 ../templates/dmarc.tpl:103 ../templates/dmarc.tpl:105 ../templates/dmarc.tpl:107 ../templates/payload.tpl:7 ../templates/payload.tpl:12 ../templates/payload.tpl:19 ../templates/payload.tpl:21 ../templates/spf.tpl:13
+#, go-template
+msgid "Error"
+msgstr "orErray"
+
+#: ../templates/components.tpl:90
+#, go-template
+msgid "Warning"
+msgstr "arningWay"
+
+#: ../templates/components.tpl:95
+#, go-template
+msgid "Info"
+msgstr "oInfay"
+
+#: ../templates/dkim.tpl:1
+#, go-template
+msgid "Domainkey Identified Mail (DKIM)"
+msgstr "omainkeyDay entifiedIday ailMay (DKIMay)"
+
+#: ../templates/dkim.tpl:17 ../templates/dmarc.tpl:13
+#, go-template
+msgid "Pass"
+msgstr "assPay"
+
+#: ../templates/dkim.tpl:21
+#, go-template
+msgid "Is this signature aligned with the From: header?"
+msgstr "Isay isthay ignaturesay alignedyay ithway ethay omFray: eaderhay?"
+
+#: ../templates/dkim.tpl:22
+#, go-template
+msgid "Alignment"
+msgstr "ignmentAlay"
+
+#: ../templates/dkim.tpl:24 ../templates/dmarc.tpl:53 ../templates/dmarc.tpl:61
+#, go-template
+msgid "strict"
+msgstr "ictstray"
+
+#: ../templates/dkim.tpl:26 ../templates/dmarc.tpl:53 ../templates/dmarc.tpl:61
+#, go-template
+msgid "relaxed"
+msgstr "elaxedray"
+
+#: ../templates/dkim.tpl:28
+#, go-template
+msgid "not aligned"
+msgstr "otnay alignedyay"
+
+#: ../templates/dkim.tpl:33
+#, go-template
+msgid "The domain that claims responsibility via this signature"
+msgstr "eThay omainday atthay aimsclay esponsibilityray iavay isthay ignaturesay"
+
+#: ../templates/dkim.tpl:34
+#, go-template
+msgid "Domain (d=)"
+msgstr "omainDay (day=)"
+
+#: ../templates/dkim.tpl:38
+#, go-template
+msgid "The selector used to find the public key"
+msgstr "eThay electorsay usedyay otay indfay ethay ublicpay eykay"
+
+#: ../templates/dkim.tpl:39
+#, go-template
+msgid "Selector (s=)"
+msgstr "electorSay (say=)"
+
+#: ../templates/dkim.tpl:44
+#, go-template
+msgid "The signer says this signature applies to this mail stream (seldom relevant)"
+msgstr "eThay ignersay ayssay isthay ignaturesay appliesyay otay isthay ailmay eamstray (eldomsay elevantray)"
+
+#: ../templates/dkim.tpl:45
+#, go-template
+msgid "Identity (i=)"
+msgstr "entityIday (iyay=)"
+
+#: ../templates/dkim.tpl:51
+#, go-template
+msgid "When this mail was signed"
+msgstr "enWhay isthay ailmay asway ignedsay"
+
+#: ../templates/dkim.tpl:52
+#, go-template
+msgid "Timestamp (t=)"
+msgstr "imestampTay (tay=)"
+
+#: ../templates/dkim.tpl:58
+#, go-template
+msgid "The signer says this signature is not valid after this time"
+msgstr "eThay ignersay ayssay isthay ignaturesay isyay otnay alidvay afteryay isthay imetay"
+
+#: ../templates/dkim.tpl:64
+#, go-template
+msgid "This signature only covers this length of the body"
+msgstr "isThay ignaturesay onlyyay overscay isthay engthlay ofyay ethay odybay"
+
+#: ../templates/dkim.tpl:65
+#, go-template
+msgid "Length (l=)"
+msgstr "engthLay (lay=)"
+
+#: ../templates/dkim.tpl:66
+#, go-template
+msgid "deprecated"
+msgstr "eprecatedday"
+
+#: ../templates/dkim.tpl:66
+#, go-template
+msgid "Use of l= opens security holes and there's no situation where it's useful"
+msgstr "eUsay ofyay lay= opensyay ecuritysay oleshay andyay erethay'say onay ituationsay erewhay ityay'say usefulyay"
+
+#: ../templates/dkim.tpl:69
+#, go-template
+msgid "The headers this signature covers"
+msgstr "eThay eadershay isthay ignaturesay overscay"
+
+#: ../templates/dkim.tpl:70
+#, go-template
+msgid "Headers (h=)"
+msgstr "eadersHay (hay=)"
+
+#: ../templates/dkim.tpl:84
+#, go-template
+msgid "No DKIM signatures."
+msgstr "oNay DKIMay ignaturessay."
+
+#: ../templates/dmarc.tpl:5
+#, go-template
+msgid "This sender does not publish a DMARC record."
+msgstr "isThay endersay oesday otnay ublishpay ayay DMARCay ecordray."
+
+#: ../templates/dmarc.tpl:14
+#, go-template
+msgid "DMARC Passes"
+msgstr "DMARCay assesPay"
+
+#: ../templates/dmarc.tpl:21
+#, go-template
+msgid "DMARC Fails"
+msgstr "DMARCay ailsFay"
+
+#: ../templates/dmarc.tpl:27 ../templates/dmarc.tpl:35
+#, go-template
+msgid "The hostname where we find the DMARC records we're checking"
+msgstr "eThay ostnamehay erewhay eway indfay ethay DMARCay ecordsray eway'eray eckingchay"
+
+#: ../templates/dmarc.tpl:29 ../templates/dmarc.tpl:37 ../templates/hosts.tpl:7 ../templates/tls.tpl:30
+#, go-template
+msgid "Hostname"
+msgstr "ostnameHay"
+
+#: ../templates/dmarc.tpl:30
+#, go-format, go-template
+msgid "%s, from 822.From domain"
+msgstr "%say, omfray 822.omFray omainday"
+
+#: ../templates/dmarc.tpl:38
+#, go-format, go-template
+msgid "%s, organizational domain"
+msgstr "%say, organizationalyay omainday"
+
+#: ../templates/dmarc.tpl:43
+#, go-template
+msgid "The DMARC policy record retrieved from DNS"
+msgstr "eThay DMARCay olicypay ecordray etrievedray omfray DNSay"
+
+#: ../templates/dmarc.tpl:45
+#, go-template
+msgid "Record"
+msgstr "ecordRay"
+
+#: ../templates/dmarc.tpl:49
+#, go-template
+msgid "What alignment the DMARC policy requires between From: and DKIM d="
+msgstr "atWhay alignmentyay ethay DMARCay olicypay equiresray etweenbay omFray: andyay DKIMay day="
+
+#: ../templates/dmarc.tpl:51
+#, go-template
+msgid "DKIM alignment"
+msgstr "DKIMay alignmentyay"
+
+#: ../templates/dmarc.tpl:57
+#, go-template
+msgid "What alignment the DMARC policy requires between From: and SPF hostname"
+msgstr "atWhay alignmentyay ethay DMARCay olicypay equiresray etweenbay omFray: andyay SPFay ostnamehay"
+
+#: ../templates/dmarc.tpl:59
+#, go-template
+msgid "SPF Alignment"
+msgstr "SPFay ignmentAlay"
+
+#: ../templates/dmarc.tpl:65
+#, go-template
+msgid "What the DMARC policy requests mailbox providers to do if mail 'from' it fails DMARC"
+msgstr "atWhay ethay DMARCay olicypay equestsray ailboxmay oviderspray otay oday ifyay ailmay 'omfray' ityay ailsfay DMARCay"
+
+#: ../templates/dmarc.tpl:67
+#, go-template
+msgid "Policy"
+msgstr "olicyPay"
+
+#: ../templates/dmarc.tpl:72
+#, go-template
+msgid "What the DMARC policy requests mailbox providers to do if mail 'from' any subdomain fails DMARC"
+msgstr "atWhay ethay DMARCay olicypay equestsray ailboxmay oviderspray otay oday ifyay ailmay 'omfray' anyyay ubdomainsay ailsfay DMARCay"
+
+#: ../templates/dmarc.tpl:74
+#, go-template
+msgid "Subdomain Policy"
+msgstr "ubdomainSay olicyPay"
+
+#: ../templates/dmarc.tpl:79
+#, go-template
+msgid "Where DMARC failure aggregate reports are sent"
+msgstr "ereWhay DMARCay ailurefay aggregateyay eportsray areyay entsay"
+
+#: ../templates/dmarc.tpl:81
+#, go-template
+msgid "Aggregate reporting (rua)"
+msgstr "egateAggray eportingray (uaray)"
+
+#: ../templates/dmarc.tpl:85
+#, go-template
+msgid "1st party"
+msgstr "1stay artypay"
+
+#: ../templates/dmarc.tpl:85
+#, go-format, go-template
+msgid "Reporting address aligned at %s"
+msgstr "eportingRay addressyay alignedyay atyay %say"
+
+#: ../templates/dmarc.tpl:87 ../templates/dmarc.tpl:89
+#, go-template
+msgid "3rd party"
+msgstr "3rday artypay"
+
+#: ../templates/dmarc.tpl:87
+#, go-template
+msgid "Probably valid 3rd party reporting; check nested RUAs"
+msgstr "obablyPray alidvay 3rday artypay eportingray; eckchay estednay RUAsay"
+
+#: ../templates/dmarc.tpl:89
+#, go-format, go-template
+msgid "Reporting via %s"
+msgstr "eportingRay iavay %say"
+
+#: ../templates/dmarc.tpl:92
+#, go-template
+msgid "Success"
+msgstr "uccessSay"
+
+#: ../templates/dmarc.tpl:97
+#, go-template
+msgid "Target doesn't start with \"mailto\""
+msgstr "argetTay oesnday'tay artstay ithway \"ailtomay\""
+
+#: ../templates/dmarc.tpl:99
+#, go-template
+msgid "Invalid email address"
+msgstr "alidInvay emailyay addressyay"
+
+#: ../templates/dmarc.tpl:101
+#, go-format, go-template
+msgid "Failed to look up %s"
+msgstr "ailedFay otay ooklay upyay %say"
+
+#: ../templates/dmarc.tpl:103
+#, go-format, go-template
+msgid "No MX found for %s"
+msgstr "oNay MXay oundfay orfay %say"
+
+#: ../templates/dmarc.tpl:105
+#, go-template, go-format
+msgid "No external validation record found for %s"
+msgstr "oNay externalyay alidationvay ecordray oundfay orfay %say"
+
+#: ../templates/dns.tpl:1
+#, go-template
+msgid "DNS"
+msgstr "DNSay"
+
+#: ../templates/dns.tpl:6
+#, go-template
+msgid "SPF Validation"
+msgstr "SPFay alidationVay"
+
+#: ../templates/dns.tpl:7
+#, go-template
+msgid "DKIM Validation"
+msgstr "DKIMay alidationVay"
+
+#: ../templates/dns.tpl:8
+#, go-template
+msgid "DMARC Lookup"
+msgstr "DMARCay ookupLay"
+
+#: ../templates/dns.tpl:9 ../templates/yahoogle.tpl:19
+#, go-template
+msgid "Reverse DNS"
+msgstr "everseRay DNSay"
+
+#: ../templates/dns.tpl:10
+#, go-template
+msgid "BIMI"
+msgstr "BIMIay"
+
+#: ../templates/dns.tpl:11
+#, go-template
+msgid "IPv6 Check"
+msgstr "IPvay6 eckChay"
+
+#: ../templates/dns.tpl:25
+#, go-template
+msgid "Answers"
+msgstr "ersAnsway"
+
+#: ../templates/dns.tpl:36
+#, go-template
+msgid "(no answers)"
+msgstr "(onay answersyay)"
+
+#: ../templates/dns.tpl:41
+#, go-template
+msgid "Additional"
+msgstr "itionalAdday"
+
+#: ../templates/dns.tpl:55
+#, go-template
+msgid "Authority"
+msgstr "uthorityAay"
+
+#: ../templates/embed-error.tpl:2
+#, go-template
+msgid "Error handling email content:"
+msgstr "orErray andlinghay emailyay ontentcay:"
+
+#: ../templates/headers.tpl:1
+#, go-template
+msgid "Message Headers"
+msgstr "essageMay eadersHay"
+
+#: ../templates/help.tpl:4
+#, go-template
+msgid "Version"
+msgstr "ersionVay"
+
+#: ../templates/help.tpl:6
+#, go-format, go-template
+msgid "The server running is currently version %s."
+msgstr "eThay erversay unningray isyay urrentlycay ersionvay %say."
+
+#: ../templates/help.tpl:9
+#, go-template, go-format
+msgid "The results you're looking at (%s) were generated by server version %s."
+msgstr "eThay esultsray ouyay'eray ookinglay atyay (%say) ereway eneratedgay byay erversay ersionvay %say."
+
+#: ../templates/hosts.tpl:1 ../templates/tls.tpl:26
+#, go-template
+msgid "Remote content"
+msgstr "emoteRay ontentcay"
+
+#: ../templates/hosts.tpl:8 ../templates/links.tpl:1
+#, go-template
+msgid "Links"
+msgstr "inksLay"
+
+#: ../templates/hosts.tpl:9 ../templates/images.tpl:67
+#, go-template
+msgid "Images"
+msgstr "agesImay"
+
+#: ../templates/hosts.tpl:10
+#, go-template
+msgid "Weight"
+msgstr "eightWay"
+
+#: ../templates/hosts.tpl:10
+#, go-template
+msgid "Total size of images loaded"
+msgstr "otalTay izesay ofyay imagesyay oadedlay"
+
+#: ../templates/hosts.tpl:11
+#, go-template
+msgid "Bloat"
+msgstr "oatBlay"
+
+#: ../templates/hosts.tpl:11
+#, go-template
+msgid "Weight that could be saved by resizing images"
+msgstr "eightWay atthay ouldcay ebay avedsay byay esizingray imagesyay"
+
+#: ../templates/hosts.tpl:12 ../templates/spf.tpl:7 ../templates/spf.tpl:9 ../templates/spf.tpl:20 ../templates/yahoogle.tpl:10
+#, go-template
+msgid "Aligned"
+msgstr "ignedAlay"
+
+#: ../templates/hosts.tpl:12
+#, go-template
+msgid "Is in the same domain as the From: address"
+msgstr "Isay inyay ethay amesay omainday asyay ethay omFray: addressyay"
+
+#: ../templates/hosts.tpl:13
+#, go-template
+msgid "IPv6"
+msgstr "IPvay6"
+
+#: ../templates/hosts.tpl:13
+#, go-template
+msgid "Supports IPv6 clients"
+msgstr "upportsSay IPvay6 ientsclay"
+
+#: ../templates/images.tpl:1
+#, go-format, go-template
+msgid "retina %d×"
+msgstr "etinaray %day×"
+
+#: ../templates/images.tpl:2
+#, go-template
+msgid "downscaled"
+msgstr "ownscaledday"
+
+#: ../templates/images.tpl:3
+#, go-template
+msgid "upscaled"
+msgstr "upscaledyay"
+
+#. TRANSLATORS: The URL a link points at
+#: ../templates/images.tpl:6 ../templates/links.tpl:21 ../templates/unsubscribe.tpl:11
+#, go-template
+msgid "No TLS"
+msgstr "oNay TLSay"
+
+#. TRANSLATORS: The URL a link points at
+#: ../templates/images.tpl:6 ../templates/links.tpl:21 ../templates/unsubscribe.tpl:11
+#, go-template
+msgid "All links should use https"
+msgstr "Allay inkslay ouldshay useyay httpsay"
+
+#: ../templates/images.tpl:8 ../templates/links.tpl:24
+#, go-template
+msgid "Parameters"
+msgstr "arametersPay"
+
+#: ../templates/images.tpl:18
+#, go-template
+msgid "Srcset size"
+msgstr "etSrcsay izesay"
+
+#: ../templates/images.tpl:22 ../templates/images.tpl:24 ../templates/links.tpl:34 ../templates/links.tpl:36
+#, go-template
+msgid "HTTP Response"
+msgstr "HTTPay esponseRay"
+
+#: ../templates/images.tpl:27
+#, go-template
+msgid "Size"
+msgstr "izeSay"
+
+#. TRANSLATORS: How much bigger an image is than it should be
+#: ../templates/images.tpl:27 ../templates/images.tpl:58
+#, go-format, go-template
+msgid "%s bytes"
+msgstr "%say esbytay"
+
+#: ../templates/images.tpl:30 ../templates/links.tpl:39
+#, go-template
+msgid "Redirections"
+msgstr "edirectionsRay"
+
+#: ../templates/images.tpl:39 ../templates/links.tpl:48
+#, go-template
+msgid "Content-Type"
+msgstr "ontentCay-eTypay"
+
+#: ../templates/images.tpl:42
+#, go-template
+msgid "Image format"
+msgstr "ageImay ormatfay"
+
+#: ../templates/images.tpl:46
+#, go-template
+msgid "Display geometry"
+msgstr "isplayDay eometrygay"
+
+#: ../templates/images.tpl:48
+#, go-template
+msgid "Display width"
+msgstr "isplayDay idthway"
+
+#: ../templates/images.tpl:52
+#, go-template
+msgid "Display height"
+msgstr "isplayDay eighthay"
+
+#: ../templates/images.tpl:55
+#, go-template
+msgid "Image geometry"
+msgstr "ageImay eometrygay"
+
+#. TRANSLATORS: How much bigger an image is than it should be
+#: ../templates/images.tpl:58 ../templates/overview.tpl:34
+#, go-template
+msgid "Image bloat"
+msgstr "ageImay oatblay"
+
+#. TRANSLATORS: How much bigger an image is than it should be
+#: ../templates/images.tpl:58
+#, go-template
+msgid "Bytes that could be saved by resizing image"
+msgstr "esBytay atthay ouldcay ebay avedsay byay esizingray imageyay"
+
+#: ../templates/images.tpl:60
+#, go-template
+msgid "Alt text"
+msgstr "Altay exttay"
+
+#: ../templates/images.tpl:62
+#, go-template
+msgid "Thumbnail"
+msgstr "umbnailThay"
+
+#: ../templates/images.tpl:75
+#, go-template
+msgid "Non-http images"
+msgstr "onNay-httpay imagesyay"
+
+#: ../templates/links.tpl:9
+#, go-template
+msgid "Non-http Links"
+msgstr "onNay-httpay inksLay"
+
+#. TRANSLATORS: The visible part of a web link.
+#: ../templates/links.tpl:18
+#, go-template
+msgid "Link"
+msgstr "inkLay"
+
+#. TRANSLATORS: The URL a link points at
+#: ../templates/links.tpl:21
+#, go-template
+msgid "URL"
+msgstr "URLay"
+
+#: ../templates/mime.tpl:16
+#, go-template
+msgid "MIME Structure"
+msgstr "MIMEay uctureStray"
+
+#: ../templates/mimedisplay.tpl:1
+#, go-template
+msgid "MIME Content"
+msgstr "MIMEay ontentCay"
+
+#: ../templates/overview.tpl:1
+#, go-template
+msgid "Summary"
+msgstr "ummarySay"
+
+#: ../templates/overview.tpl:9
+#, go-template
+msgid "(no subject)"
+msgstr "(onay ubjectsay)"
+
+#: ../templates/overview.tpl:14
+#, go-template
+msgid "(no From header)"
+msgstr "(onay omFray eaderhay)"
+
+#: ../templates/overview.tpl:17
+#, go-template
+msgid "The IP address the mail was sent from"
+msgstr "eThay IPay addressyay ethay ailmay asway entsay omfray"
+
+#: ../templates/overview.tpl:18
+#, go-template
+msgid "Peer IP"
+msgstr "eerPay IPay"
+
+#: ../templates/overview.tpl:19 ../templates/overview.tpl:19 ../templates/overview.tpl:19 ../templates/session.tpl:3
+#, go-template
+msgid "rDNS"
+msgstr "rDNSay"
+
+#: ../templates/overview.tpl:19 ../templates/session.tpl:3
+#, go-template
+msgid "Valid forward and reverse DNS"
+msgstr "alidVay orwardfay andyay everseray DNSay"
+
+#: ../templates/overview.tpl:19 ../templates/session.tpl:3
+#, go-template
+msgid "Missing round trip DNS"
+msgstr "issingMay oundray iptray DNSay"
+
+#: ../templates/overview.tpl:19 ../templates/session.tpl:3
+#, go-template
+msgid "No reverse DNS for sending IP"
+msgstr "oNay everseray DNSay orfay endingsay IPay"
+
+#: ../templates/overview.tpl:22
+#, go-template
+msgid "The size of the mail in bytes as sent"
+msgstr "eThay izesay ofyay ethay ailmay inyay esbytay asyay entsay"
+
+#: ../templates/overview.tpl:23
+#, go-template
+msgid "Email size"
+msgstr "ailEmay izesay"
+
+#: ../templates/overview.tpl:24
+#, go-template
+msgid ">102k"
+msgstr ">102kay"
+
+#: ../templates/overview.tpl:24
+#, go-template
+msgid "This may cause the mail to be truncated at Gmail"
+msgstr "isThay aymay ausecay ethay ailmay otay ebay uncatedtray atyay ailGmay"
+
+#: ../templates/overview.tpl:28
+#, go-template
+msgid "The total size of external images loaded when read"
+msgstr "eThay otaltay izesay ofyay externalyay imagesyay oadedlay enwhay eadray"
+
+#: ../templates/overview.tpl:29
+#, go-template
+msgid "Image weight"
+msgstr "ageImay eightway"
+
+#: ../templates/overview.tpl:33
+#, go-template
+msgid "The total weight that could be saved by resizing images"
+msgstr "eThay otaltay eightway atthay ouldcay ebay avedsay byay esizingray imagesyay"
+
+#: ../templates/overview.tpl:40
+#, go-template
+msgid "Authentication"
+msgstr "uthenticationAay"
+
+#: ../templates/overview.tpl:45
+#, go-template
+msgid "SPF Aligned"
+msgstr "SPFay ignedAlay"
+
+#: ../templates/overview.tpl:47
+#, go-template
+msgid "SPF Unaligned"
+msgstr "SPFay alignedUnay"
+
+#: ../templates/overview.tpl:50
+#, go-format, go-template
+msgid "SPF %s"
+msgstr "SPFay %say"
+
+#: ../templates/overview.tpl:55
+#, go-template
+msgid "DKIM Aligned"
+msgstr "DKIMay ignedAlay"
+
+#: ../templates/overview.tpl:57
+#, go-template
+msgid "DKIM Unaligned"
+msgstr "DKIMay alignedUnay"
+
+#: ../templates/overview.tpl:59
+#, go-template
+msgid "DKIM Unsigned"
+msgstr "DKIMay ignedUnsay"
+
+#: ../templates/overview.tpl:64
+#, go-template
+msgid "DMARC missing"
+msgstr "DMARCay issingmay"
+
+#: ../templates/overview.tpl:66
+#, go-format, go-template
+msgid "DMARC pass p=%s"
+msgstr "DMARCay asspay pay=%say"
+
+#: ../templates/overview.tpl:68
+#, go-format, go-template
+msgid "DMARC fail p=%s"
+msgstr "DMARCay ailfay pay=%say"
+
+#: ../templates/overview.tpl:76
+#, go-template
+msgid "Awarded to email that complies with best practice requirements published by major providers"
+msgstr "ardedAway otay emailyay atthay ompliescay ithway estbay acticepray equirementsray ublishedpay byay ajormay oviderspray"
+
+#: ../templates/overview.tpl:77
+#, go-template
+msgid "Awarded to email that uses TLS for delivery and external content"
+msgstr "ardedAway otay emailyay atthay usesyay TLSay orfay eliveryday andyay externalyay ontentcay"
+
+#: ../templates/overview.tpl:78
+#, go-template
+msgid "Awarded to email that supports IPv6 for delivery and external content"
+msgstr "ardedAway otay emailyay atthay upportssay IPvay6 orfay eliveryday andyay externalyay ontentcay"
+
+#: ../templates/overview.tpl:79
+#, go-template
+msgid "Awarded to email that uses appropriately sized external images"
+msgstr "ardedAway otay emailyay atthay usesyay appropriatelyyay izedsay externalyay imagesyay"
+
+#: ../templates/overview.tpl:80
+#, go-template
+msgid "Awarded to the rare email that's excessively aligned"
+msgstr "ardedAway otay ethay areray emailyay atthay'say excessivelyyay alignedyay"
+
+#: ../templates/payload.tpl:1
+#, go-template
+msgid "Payload"
+msgstr "ayloadPay"
+
+#: ../templates/payload.tpl:5
+#, go-template
+msgid "Payload size"
+msgstr "ayloadPay izesay"
+
+#: ../templates/payload.tpl:5
+#, go-format, go-template
+msgid "%d bytes"
+msgstr "%day esbytay"
+
+#: ../templates/payload.tpl:6
+#, go-template
+msgid "Lines"
+msgstr "inesLay"
+
+#: ../templates/payload.tpl:7
+#, go-template
+msgid "Longest line"
+msgstr "ongestLay inelay"
+
+#: ../templates/payload.tpl:7
+#, go-template, go-format
+msgid "Line %d, %d characters"
+msgstr "ineLay %day, %day aracterschay"
+
+#: ../templates/payload.tpl:7
+#, go-template
+msgid "exceeds maximum allowed 998"
+msgstr "exceedsyay aximummay allowedyay 998"
+
+#: ../templates/payload.tpl:8
+#, go-template
+msgid "Non-ascii characters"
+msgstr "onNay-asciiyay aracterschay"
+
+#: ../templates/payload.tpl:10 ../templates/tls.tpl:42
+#, go-template
+msgid "none"
+msgstr "onenay"
+
+#: ../templates/payload.tpl:12 ../templates/payload.tpl:21
+#, go-format, go-template
+msgid "%d, starting on line %d"
+msgstr "%day, artingstay onyay inelay %day"
+
+#: ../templates/payload.tpl:15
+#, go-template
+msgid "Bare line feeds"
+msgstr "areBay inelay eedsfay"
+
+#: ../templates/payload.tpl:19
+#, go-template
+msgid "every line"
+msgstr "everyyay inelay"
+
+#: ../templates/privacy.tpl:1
+#, go-template
+msgid "Privacy"
+msgstr "ivacyPray"
+
+#: ../templates/raw.tpl:1
+#, go-template
+msgid "Raw"
+msgstr "awRay"
+
+#: ../templates/render.tpl:1
+#, go-template
+msgid "Rendered HTML"
+msgstr "enderedRay HTMLay"
+
+#: ../templates/render.tpl:35
+#, go-template
+msgid "Change device size..."
+msgstr "angeChay eviceday izesay..."
+
+#: ../templates/render.tpl:84
+#, go-template
+msgid "This message has no HTML parts."
+msgstr "isThay essagemay ashay onay HTMLay artspay."
+
+#: ../templates/result.tpl:3
+#, go-format, go-template
+msgid "About %s's Email"
+msgstr "outAbay %say'say ailEmay"
+
+#: ../templates/result.tpl:3 ../templates/result.tpl:11 ../templates/result.tpl:14
+#, go-template
+msgid "About My Email"
+msgstr "outAbay Myay ailEmay"
+
+#: ../templates/result.tpl:10 ../templates/result.tpl:15 ../templates/result.tpl:17
+#, go-format, go-template
+msgid "See how %s's email implements best practices."
+msgstr "eeSay owhay %say'say emailyay implementsyay estbay acticespray."
+
+#: ../templates/result.tpl:10 ../templates/result.tpl:15 ../templates/result.tpl:17
+#, go-template
+msgid "See how this email implements best practices."
+msgstr "eeSay owhay isthay emailyay implementsyay estbay acticespray."
+
+#: ../templates/result.tpl:14
+#, go-format, go-template
+msgid "}About %s's Email"
+msgstr "}outAbay %say'say ailEmay"
+
+#: ../templates/result.tpl:31
+#, go-template
+msgid "Home"
+msgstr "omeHay"
+
+#: ../templates/result.tpl:101
+#, go-template
+msgid "yes"
+msgstr "esyay"
+
+#: ../templates/result.tpl:102
+#, go-template
+msgid "no"
+msgstr "onay"
+
+#: ../templates/session.tpl:3
+#, go-format, go-template
+msgid "SMTP session from %s"
+msgstr "SMTPay essionsay omfray %say"
+
+#: ../templates/session.tpl:3 ../templates/session.tpl:3
+#, go-template
+msgid "FCrDNS"
+msgstr "FCrDNSay"
+
+#: ../templates/settings.tpl:1
+#, go-template
+msgid "Preferences"
+msgstr "eferencesPray"
+
+#: ../templates/settings.tpl:5
+#, go-template
+msgid "Language"
+msgstr "anguageLay"
+
+#: ../templates/settings.tpl:6
+#, go-template
+msgid "Currently"
+msgstr "urrentlyCay"
+
+#: ../templates/settings.tpl:10
+#, go-template
+msgid "Default"
+msgstr "efaultDay"
+
+#: ../templates/settings.tpl:22
+#, go-template
+msgid "Cancel"
+msgstr "ancelCay"
+
+#: ../templates/settings.tpl:23
+#, go-template
+msgid "Save"
+msgstr "aveSay"
+
+#: ../templates/spf.tpl:1
+#, go-template
+msgid "Sender Policy Framework (SPF)"
+msgstr "enderSay olicyPay ameworkFray (SPFay)"
+
+#: ../templates/spf.tpl:7
+#, go-template
+msgid "pass"
+msgstr "asspay"
+
+#: ../templates/spf.tpl:7
+#, go-template
+msgid "SPF Passes"
+msgstr "SPFay assesPay"
+
+#: ../templates/spf.tpl:9
+#, go-template
+msgid "SPF Doesn't Pass"
+msgstr "SPFay oesnDay'tay assPay"
+
+#: ../templates/spf.tpl:11
+#, go-template
+msgid "Result"
+msgstr "esultRay"
+
+#: ../templates/spf.tpl:15
+#, go-template
+msgid "Explanation"
+msgstr "anationExplay"
+
+#: ../templates/spf.tpl:16
+#, go-template
+msgid "The number of SPF operations that cause DNS queries"
+msgstr "eThay umbernay ofyay SPFay operationsyay atthay ausecay DNSay ueriesqay"
+
+#: ../templates/spf.tpl:16
+#, go-template
+msgid "DNS operations"
+msgstr "DNSay operationsyay"
+
+#: ../templates/spf.tpl:16
+#, go-template
+msgid "> 10"
+msgstr "> 10"
+
+#: ../templates/spf.tpl:16
+#, go-template
+msgid "SPF should perform no more than ten DNS operations"
+msgstr "SPFay ouldshay erformpay onay oremay anthay entay DNSay operationsyay"
+
+#: ../templates/spf.tpl:17
+#, go-template
+msgid "The number of SPF DNS queries that returned no result"
+msgstr "eThay umbernay ofyay SPFay DNSay ueriesqay atthay eturnedray onay esultray"
+
+#: ../templates/spf.tpl:17
+#, go-template
+msgid "Void DNS operations"
+msgstr "oidVay DNSay operationsyay"
+
+#: ../templates/spf.tpl:17
+#, go-template
+msgid "> 2"
+msgstr "> 2"
+
+#: ../templates/spf.tpl:17
+#, go-template
+msgid "SPF should perform no more than two void DNS operations"
+msgstr "SPFay ouldshay erformpay onay oremay anthay otway oidvay DNSay operationsyay"
+
+#: ../templates/spf.tpl:18
+#, go-template
+msgid "The hostname from the return-path or HELO that was checked"
+msgstr "eThay ostnamehay omfray ethay eturnray-athpay oryay HELOay atthay asway eckedchay"
+
+#: ../templates/spf.tpl:18
+#, go-template
+msgid "Hostname checked"
+msgstr "ostnameHay eckedchay"
+
+#: ../templates/spf.tpl:19
+#, go-template
+msgid "The IP address the mail was received from"
+msgstr "eThay IPay addressyay ethay ailmay asway eceivedray omfray"
+
+#: ../templates/spf.tpl:19
+#, go-template
+msgid "Peer IP address"
+msgstr "eerPay IPay addressyay"
+
+#: ../templates/spf.tpl:20
+#, go-template
+msgid "Is the domain SPF checks aligned with the From: header?"
+msgstr "Isay ethay omainday SPFay eckschay alignedyay ithway ethay omFray: eaderhay?"
+
+#: ../templates/spf.tpl:22
+#, go-template
+msgid "SPF Resolution"
+msgstr "SPFay esolutionRay"
+
+#: ../templates/tls.tpl:1
+#, go-template
+msgid "Transport Layer Security"
+msgstr "ansportTray ayerLay ecuritySay"
+
+#: ../templates/tls.tpl:6
+#, go-template
+msgid "Session encryption"
+msgstr "essionSay encryptionyay"
+
+#: ../templates/tls.tpl:11
+#, go-template
+msgid "< TLS 1.2"
+msgstr "< TLSay 1.2"
+
+#: ../templates/tls.tpl:11
+#, go-template
+msgid "Versions of TLS older than 1.2 are not secure"
+msgstr "ersionsVay ofyay TLSay olderyay anthay 1.2 areyay otnay ecuresay"
+
+#: ../templates/tls.tpl:14
+#, go-template
+msgid "None"
+msgstr "oneNay"
+
+#: ../templates/tls.tpl:19
+#, go-template
+msgid "Cipher suite"
+msgstr "ipherCay uitesay"
+
+#: ../templates/tls.tpl:31
+#, go-template
+msgid "Insecure links"
+msgstr "ecureInsay inkslay"
+
+#: ../templates/tls.tpl:31
+#, go-template
+msgid "Links or images not using https"
+msgstr "inksLay oryay imagesyay otnay usingyay httpsay"
+
+#: ../templates/unsubscribe.tpl:1
+#, go-template
+msgid "Unsubscription"
+msgstr "ubscriptionUnsay"
+
+#: ../templates/unsubscribe.tpl:7
+#, go-template
+msgid "The List-Unsubscribe: header"
+msgstr "eThay istLay-ubscribeUnsay: eaderhay"
+
+#: ../templates/unsubscribe.tpl:9
+#, go-template
+msgid "Unsubscription URLs from the List-Unsubscribe: header"
+msgstr "ubscriptionUnsay URLsay omfray ethay istLay-ubscribeUnsay: eaderhay"
+
+#: ../templates/unsubscribe.tpl:13
+#, go-template
+msgid "A mail client can do a non-interactive unsubscribe, using an RFC 8058 List-Unsubscribe-Post or a mailto: url"
+msgstr "Aay ailmay ientclay ancay oday ayay onnay-interactiveyay unsubscribeyay, usingyay anyay RFCay 8058 istLay-ubscribeUnsay-ostPay oryay ayay ailtomay: urlyay"
+
+#: ../templates/unsubscribe.tpl:14
+#, go-template
+msgid "List-Unsubscribe-Post based non-interactive unsubscribe"
+msgstr "istLay-ubscribeUnsay-ostPay asedbay onnay-interactiveyay unsubscribeyay"
+
+#: ../templates/unsubscribe.tpl:15
+#, go-template
+msgid "A link in the body of the message pointing at an unsubscription web page"
+msgstr "Aay inklay inyay ethay odybay ofyay ethay essagemay ointingpay atyay anyay unsubscriptionyay ebway agepay"
+
+#: ../templates/unsubscribe.tpl:15
+#, go-template
+msgid "missing"
+msgstr "issingmay"
+
+#: ../templates/unsubscribe.tpl:15
+#, go-template
+msgid "The heuristics we use to find an unsub link didn't find one"
+msgstr "eThay euristicshay eway useyay otay indfay anyay unsubyay inklay idnday'tay indfay oneyay"
+
+#: ../templates/unsubscribe.tpl:16
+#, go-template
+msgid "List-Id: allows recipient software to identify a specific list"
+msgstr "istLay-Iday: allowsyay ecipientray oftwaresay otay identifyyay ayay ecificspay istlay"
+
+#: ../templates/unsubscribe.tpl:19
+#, go-template
+msgid "The ID part of the List-Id header is used to identify the list within client software, particularly for routing"
+msgstr "eThay IDay artpay ofyay ethay istLay-Iday eaderhay isyay usedyay otay identifyyay ethay istlay ithinway ientclay oftwaresay, articularlypay orfay outingray"
+
+#: ../templates/unsubscribe.tpl:21
+#, go-template
+msgid "Invalid"
+msgstr "alidInvay"
+
+#: ../templates/unsubscribe.tpl:21
+#, go-template
+msgid "The list id must end with either a valid domain or 'localhost' )"
+msgstr "eThay istlay idyay ustmay endyay ithway eitheryay ayay alidvay omainday oryay 'ocalhostlay' )"
+
+#: ../templates/unsubscribe.tpl:26
+#, go-template
+msgid "List-ID can contain an optional human readable description. If it's missing the bare ID may be used instead."
+msgstr "istLay-IDay ancay ontaincay anyay optionalyay umanhay eadableray escriptionday. Ifay ityay'say issingmay ethay arebay IDay aymay ebay usedyay insteadyay."
+
+#: ../templates/unsubscribe.tpl:27
+#, go-template
+msgid "The List-ID header can contain a friendly description of the list for use by clients"
+msgstr "eThay istLay-IDay eaderhay ancay ontaincay ayay iendlyfray escriptionday ofyay ethay istlay orfay useyay byay ientsclay"
+
+#: ../templates/yahoogle.tpl:1
+#, go-template
+msgid "Good Practice"
+msgstr "oodGay acticePray"
+
+#. TRANSLATORS: This contains a link in the middle.
+#: ../templates/yahoogle.tpl:4
+#, go-template
+msgid "Practices that <0>large mailbox providers</0> would like to see in bulk mail streams."
+msgstr "acticesPray atthay <0>argelay ailboxmay oviderspray</0> ouldway ikelay otay eesay inyay ulkbay ailmay eamsstray."
+
+#: ../templates/yahoogle.tpl:14
+#, go-template
+msgid "DKIM"
+msgstr "DKIMay"
+
+#: ../templates/yahoogle.tpl:17
+#, go-template
+msgid "The sending server should have valid reverse DNS"
+msgstr "eThay endingsay erversay ouldshay avehay alidvay everseray DNSay"
+
+#: ../templates/yahoogle.tpl:22
+#, go-template
+msgid "The SMTP session must be encrypted with TLS"
+msgstr "eThay SMTPay essionsay ustmay ebay encryptedyay ithway TLSay"
+
+#: ../templates/yahoogle.tpl:24
+#, go-template
+msgid "Opportunistic TLS"
+msgstr "ortunisticOppay TLSay"
+
+#: ../templates/yahoogle.tpl:27
+#, go-template
+msgid "The 822.From domain must not be a freemail provider and must not fail DMARC"
+msgstr "eThay 822.omFray omainday ustmay otnay ebay ayay eemailfray oviderpray andyay ustmay otnay ailfay DMARCay"
+
+#: ../templates/yahoogle.tpl:29
+#, go-template
+msgid "Allowed Domain"
+msgstr "owedAllay omainDay"
+
+#: ../templates/yahoogle.tpl:34
+#, go-template
+msgid "DMARC"
+msgstr "DMARCay"
+
+#: ../templates/yahoogle.tpl:37
+#, go-template
+msgid "At least one of SPF or DKIM must be aligned"
+msgstr "Atay eastlay oneyay ofyay SPFay oryay DKIMay ustmay ebay alignedyay"
+
+#: ../templates/yahoogle.tpl:42
+#, go-template
+msgid "Must have an RFC 8058 'one click' unsubscribe header"
+msgstr "ustMay avehay anyay RFCay 8058 'oneyay ickclay' unsubscribeyay eaderhay"
+
+#: ../templates/yahoogle.tpl:47
+#, go-template
+msgid "There must be a link in the body of the message a recipient can follow to unsubscribe"
+msgstr "ereThay ustmay ebay ayay inklay inyay ethay odybay ofyay ethay essagemay ayay ecipientray ancay ollowfay otay unsubscribeyay"
+

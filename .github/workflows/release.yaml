@@ -3,7 +3,7 @@ on:
     types: [created]
     
 jobs:
-  releases-matrix:
+  releases-aboutmyemail:
     name: Release Go Binary
     runs-on: ubuntu-latest
     strategy:
@@ -23,3 +23,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: ${{ matrix.goos }}
           goarch: ${{ matrix.goarch }}
+          project_path: ./cmd/aboutmyemail
+          binary_name: "aboutmyemail"
+      - uses: wangyoucao577/go-release-action@v1.25
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          goos: ${{ matrix.goos }}
+          goarch: ${{ matrix.goarch }}
+          project_path: ./cmd/setbranding
+          binary_name: "setbranding"

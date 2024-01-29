@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-const apiEndpoint = "https://aboutmy.email/api/v1"
+const apiEndpoint = "https://api.aboutmy.email/api/v1"
 
 const envMyemailServer = "MYEMAIL_SERVER"
 const envMyemailApikey = "MYEMAIL_APIKEY"

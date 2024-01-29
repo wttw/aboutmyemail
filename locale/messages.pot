@@ -1,0 +1,1322 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Turscar Inc
+# This file is distributed under the same license as the AboutMyEmail package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: AboutMyEmail\n"
+"Report-Msgid-Bugs-To: steve-i18n-bugs@blighty.com\n"
+"POT-Creation-Date: 2024-01-29 09:27+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../templates/aboutus.tpl:1
+#, go-template
+msgid "About Us"
+msgstr ""
+
+#: ../templates/bimi.tpl:1
+#, go-template
+msgid "Brand Indicators (BIMI)"
+msgstr ""
+
+#. TRANSLATORS: Selector for BIMI
+#: ../templates/bimi.tpl:8
+#, go-template
+msgid "Selector"
+msgstr ""
+
+#. TRANSLATORS: Internet domain for BIMI
+#: ../templates/bimi.tpl:13
+#, go-template
+msgid "Domain"
+msgstr ""
+
+#: ../templates/bimi.tpl:14
+#, go-template
+msgid "from From: header"
+msgstr ""
+
+#: ../templates/bimi.tpl:14
+#, go-template
+msgid "organizational domain"
+msgstr ""
+
+#. TRANSLATORS: The internet hostname that provides a BIMI policy
+#: ../templates/bimi.tpl:19
+#, go-template
+msgid "Policy hostname"
+msgstr ""
+
+#. TRANSLATORS: The policy DNS record for BIMI
+#: ../templates/bimi.tpl:24
+#, go-template
+msgid "Policy record"
+msgstr ""
+
+#: ../templates/bimi.tpl:30
+#, go-template
+msgid "Declined"
+msgstr ""
+
+#: ../templates/bimi.tpl:31
+#, go-format, go-template
+msgid "%s is explicitly not offering BIMI"
+msgstr ""
+
+#: ../templates/bimi.tpl:35 ../templates/bimi.tpl:40
+#, go-template
+msgid "Image"
+msgstr ""
+
+#: ../templates/bimi.tpl:45
+#, go-template
+msgid "Image Content-Type"
+msgstr ""
+
+#: ../templates/bimi.tpl:49
+#, go-template
+msgid "Image Content-Encoding"
+msgstr ""
+
+#: ../templates/bimi.tpl:53
+#, go-template
+msgid "Image size"
+msgstr ""
+
+#: ../templates/bimi.tpl:59
+#, go-template
+msgid "SVG Version"
+msgstr ""
+
+#: ../templates/bimi.tpl:63
+#, go-template
+msgid "wrong version"
+msgstr ""
+
+#: ../templates/bimi.tpl:68
+#, go-template
+msgid "SVG Profile"
+msgstr ""
+
+#: ../templates/bimi.tpl:72
+#, go-format, go-template
+msgid "not %s"
+msgstr ""
+
+#: ../templates/bimi.tpl:77
+#, go-template
+msgid "SVG View Box"
+msgstr ""
+
+#: ../templates/bimi.tpl:83
+#, go-template
+msgid "Evidence URL"
+msgstr ""
+
+#. TRANSLATORS: The domain names in a BIMI certificate
+#: ../templates/bimi.tpl:89
+#, go-template
+msgid "Certificate names"
+msgstr ""
+
+#: ../templates/bimi.tpl:94
+#, go-template
+msgid "BIMI Certificate"
+msgstr ""
+
+#: ../templates/bimi.tpl:100
+#, go-template
+msgid "Certificate Validates"
+msgstr ""
+
+#: ../templates/bimi.tpl:110
+#, go-template
+msgid "Certificate Authority"
+msgstr ""
+
+#: ../templates/bimi.tpl:116
+#, go-template
+msgid "Embedded image identical"
+msgstr ""
+
+#: ../templates/bimi.tpl:124
+#, go-template
+msgid "Raw Image"
+msgstr ""
+
+#: ../templates/components.tpl:21
+#, go-template
+msgid "No"
+msgstr ""
+
+#: ../templates/components.tpl:28
+#, go-template
+msgid "Yes"
+msgstr ""
+
+#: ../templates/components.tpl:66
+#, go-template
+msgid "Copy to clipboard"
+msgstr ""
+
+#: ../templates/components.tpl:71
+#, go-template
+msgid "Wrap lines"
+msgstr ""
+
+#: ../templates/components.tpl:85 ../templates/dkim.tpl:11 ../templates/dmarc.tpl:97 ../templates/dmarc.tpl:99 ../templates/dmarc.tpl:101 ../templates/dmarc.tpl:103 ../templates/dmarc.tpl:105 ../templates/dmarc.tpl:107 ../templates/payload.tpl:7 ../templates/payload.tpl:12 ../templates/payload.tpl:19 ../templates/payload.tpl:21 ../templates/spf.tpl:13
+#, go-template
+msgid "Error"
+msgstr ""
+
+#: ../templates/components.tpl:90
+#, go-template
+msgid "Warning"
+msgstr ""
+
+#: ../templates/components.tpl:95
+#, go-template
+msgid "Info"
+msgstr ""
+
+#: ../templates/dkim.tpl:1
+#, go-template
+msgid "Domainkey Identified Mail (DKIM)"
+msgstr ""
+
+#: ../templates/dkim.tpl:17 ../templates/dmarc.tpl:13
+#, go-template
+msgid "Pass"
+msgstr ""
+
+#: ../templates/dkim.tpl:21
+#, go-template
+msgid "Is this signature aligned with the From: header?"
+msgstr ""
+
+#: ../templates/dkim.tpl:22
+#, go-template
+msgid "Alignment"
+msgstr ""
+
+#: ../templates/dkim.tpl:24 ../templates/dmarc.tpl:53 ../templates/dmarc.tpl:61
+#, go-template
+msgid "strict"
+msgstr ""
+
+#: ../templates/dkim.tpl:26 ../templates/dmarc.tpl:53 ../templates/dmarc.tpl:61
+#, go-template
+msgid "relaxed"
+msgstr ""
+
+#: ../templates/dkim.tpl:28
+#, go-template
+msgid "not aligned"
+msgstr ""
+
+#: ../templates/dkim.tpl:33
+#, go-template
+msgid "The domain that claims responsibility via this signature"
+msgstr ""
+
+#: ../templates/dkim.tpl:34
+#, go-template
+msgid "Domain (d=)"
+msgstr ""
+
+#: ../templates/dkim.tpl:38
+#, go-template
+msgid "The selector used to find the public key"
+msgstr ""
+
+#: ../templates/dkim.tpl:39
+#, go-template
+msgid "Selector (s=)"
+msgstr ""
+
+#: ../templates/dkim.tpl:44
+#, go-template
+msgid "The signer says this signature applies to this mail stream (seldom relevant)"
+msgstr ""
+
+#: ../templates/dkim.tpl:45
+#, go-template
+msgid "Identity (i=)"
+msgstr ""
+
+#: ../templates/dkim.tpl:51
+#, go-template
+msgid "When this mail was signed"
+msgstr ""
+
+#: ../templates/dkim.tpl:52
+#, go-template
+msgid "Timestamp (t=)"
+msgstr ""
+
+#: ../templates/dkim.tpl:58
+#, go-template
+msgid "The signer says this signature is not valid after this time"
+msgstr ""
+
+#: ../templates/dkim.tpl:64
+#, go-template
+msgid "This signature only covers this length of the body"
+msgstr ""
+
+#: ../templates/dkim.tpl:65
+#, go-template
+msgid "Length (l=)"
+msgstr ""
+
+#: ../templates/dkim.tpl:66
+#, go-template
+msgid "deprecated"
+msgstr ""
+
+#: ../templates/dkim.tpl:66
+#, go-template
+msgid "Use of l= opens security holes and there's no situation where it's useful"
+msgstr ""
+
+#: ../templates/dkim.tpl:69
+#, go-template
+msgid "The headers this signature covers"
+msgstr ""
+
+#: ../templates/dkim.tpl:70
+#, go-template
+msgid "Headers (h=)"
+msgstr ""
+
+#: ../templates/dkim.tpl:84
+#, go-template
+msgid "No DKIM signatures."
+msgstr ""
+
+#: ../templates/dmarc.tpl:5
+#, go-template
+msgid "This sender does not publish a DMARC record."
+msgstr ""
+
+#: ../templates/dmarc.tpl:14
+#, go-template
+msgid "DMARC Passes"
+msgstr ""
+
+#: ../templates/dmarc.tpl:21
+#, go-template
+msgid "DMARC Fails"
+msgstr ""
+
+#: ../templates/dmarc.tpl:27 ../templates/dmarc.tpl:35
+#, go-template
+msgid "The hostname where we find the DMARC records we're checking"
+msgstr ""
+
+#: ../templates/dmarc.tpl:29 ../templates/dmarc.tpl:37 ../templates/hosts.tpl:7 ../templates/tls.tpl:30
+#, go-template
+msgid "Hostname"
+msgstr ""
+
+#: ../templates/dmarc.tpl:30
+#, go-format, go-template
+msgid "%s, from 822.From domain"
+msgstr ""
+
+#: ../templates/dmarc.tpl:38
+#, go-format, go-template
+msgid "%s, organizational domain"
+msgstr ""
+
+#: ../templates/dmarc.tpl:43
+#, go-template
+msgid "The DMARC policy record retrieved from DNS"
+msgstr ""
+
+#: ../templates/dmarc.tpl:45
+#, go-template
+msgid "Record"
+msgstr ""
+
+#: ../templates/dmarc.tpl:49
+#, go-template
+msgid "What alignment the DMARC policy requires between From: and DKIM d="
+msgstr ""
+
+#: ../templates/dmarc.tpl:51
+#, go-template
+msgid "DKIM alignment"
+msgstr ""
+
+#: ../templates/dmarc.tpl:57
+#, go-template
+msgid "What alignment the DMARC policy requires between From: and SPF hostname"
+msgstr ""
+
+#: ../templates/dmarc.tpl:59
+#, go-template
+msgid "SPF Alignment"
+msgstr ""
+
+#: ../templates/dmarc.tpl:65
+#, go-template
+msgid "What the DMARC policy requests mailbox providers to do if mail 'from' it fails DMARC"
+msgstr ""
+
+#: ../templates/dmarc.tpl:67
+#, go-template
+msgid "Policy"
+msgstr ""
+
+#: ../templates/dmarc.tpl:72
+#, go-template
+msgid "What the DMARC policy requests mailbox providers to do if mail 'from' any subdomain fails DMARC"
+msgstr ""
+
+#: ../templates/dmarc.tpl:74
+#, go-template
+msgid "Subdomain Policy"
+msgstr ""
+
+#: ../templates/dmarc.tpl:79
+#, go-template
+msgid "Where DMARC failure aggregate reports are sent"
+msgstr ""
+
+#: ../templates/dmarc.tpl:81
+#, go-template
+msgid "Aggregate reporting (rua)"
+msgstr ""
+
+#: ../templates/dmarc.tpl:85
+#, go-template
+msgid "1st party"
+msgstr ""
+
+#: ../templates/dmarc.tpl:85
+#, go-format, go-template
+msgid "Reporting address aligned at %s"
+msgstr ""
+
+#: ../templates/dmarc.tpl:87 ../templates/dmarc.tpl:89
+#, go-template
+msgid "3rd party"
+msgstr ""
+
+#: ../templates/dmarc.tpl:87
+#, go-template
+msgid "Probably valid 3rd party reporting; check nested RUAs"
+msgstr ""
+
+#: ../templates/dmarc.tpl:89
+#, go-format, go-template
+msgid "Reporting via %s"
+msgstr ""
+
+#: ../templates/dmarc.tpl:92
+#, go-template
+msgid "Success"
+msgstr ""
+
+#: ../templates/dmarc.tpl:97
+#, go-template
+msgid "Target doesn't start with \"mailto\""
+msgstr ""
+
+#: ../templates/dmarc.tpl:99
+#, go-template
+msgid "Invalid email address"
+msgstr ""
+
+#: ../templates/dmarc.tpl:101
+#, go-format, go-template
+msgid "Failed to look up %s"
+msgstr ""
+
+#: ../templates/dmarc.tpl:103
+#, go-format, go-template
+msgid "No MX found for %s"
+msgstr ""
+
+#: ../templates/dmarc.tpl:105
+#, go-template, go-format
+msgid "No external validation record found for %s"
+msgstr ""
+
+#: ../templates/dns.tpl:1
+#, go-template
+msgid "DNS"
+msgstr ""
+
+#: ../templates/dns.tpl:6
+#, go-template
+msgid "SPF Validation"
+msgstr ""
+
+#: ../templates/dns.tpl:7
+#, go-template
+msgid "DKIM Validation"
+msgstr ""
+
+#: ../templates/dns.tpl:8
+#, go-template
+msgid "DMARC Lookup"
+msgstr ""
+
+#: ../templates/dns.tpl:9 ../templates/yahoogle.tpl:19
+#, go-template
+msgid "Reverse DNS"
+msgstr ""
+
+#: ../templates/dns.tpl:10
+#, go-template
+msgid "BIMI"
+msgstr ""
+
+#: ../templates/dns.tpl:11
+#, go-template
+msgid "IPv6 Check"
+msgstr ""
+
+#: ../templates/dns.tpl:25
+#, go-template
+msgid "Answers"
+msgstr ""
+
+#: ../templates/dns.tpl:36
+#, go-template
+msgid "(no answers)"
+msgstr ""
+
+#: ../templates/dns.tpl:41
+#, go-template
+msgid "Additional"
+msgstr ""
+
+#: ../templates/dns.tpl:55
+#, go-template
+msgid "Authority"
+msgstr ""
+
+#: ../templates/embed-error.tpl:2
+#, go-template
+msgid "Error handling email content:"
+msgstr ""
+
+#: ../templates/headers.tpl:1
+#, go-template
+msgid "Message Headers"
+msgstr ""
+
+#: ../templates/help.tpl:4
+#, go-template
+msgid "Version"
+msgstr ""
+
+#: ../templates/help.tpl:6
+#, go-format, go-template
+msgid "The server running is currently version %s."
+msgstr ""
+
+#: ../templates/help.tpl:9
+#, go-template, go-format
+msgid "The results you're looking at (%s) were generated by server version %s."
+msgstr ""
+
+#: ../templates/hosts.tpl:1 ../templates/tls.tpl:26
+#, go-template
+msgid "Remote content"
+msgstr ""
+
+#: ../templates/hosts.tpl:8 ../templates/links.tpl:1
+#, go-template
+msgid "Links"
+msgstr ""
+
+#: ../templates/hosts.tpl:9 ../templates/images.tpl:67
+#, go-template
+msgid "Images"
+msgstr ""
+
+#: ../templates/hosts.tpl:10
+#, go-template
+msgid "Weight"
+msgstr ""
+
+#: ../templates/hosts.tpl:10
+#, go-template
+msgid "Total size of images loaded"
+msgstr ""
+
+#: ../templates/hosts.tpl:11
+#, go-template
+msgid "Bloat"
+msgstr ""
+
+#: ../templates/hosts.tpl:11
+#, go-template
+msgid "Weight that could be saved by resizing images"
+msgstr ""
+
+#: ../templates/hosts.tpl:12 ../templates/spf.tpl:7 ../templates/spf.tpl:9 ../templates/spf.tpl:20 ../templates/yahoogle.tpl:10
+#, go-template
+msgid "Aligned"
+msgstr ""
+
+#: ../templates/hosts.tpl:12
+#, go-template
+msgid "Is in the same domain as the From: address"
+msgstr ""
+
+#: ../templates/hosts.tpl:13
+#, go-template
+msgid "IPv6"
+msgstr ""
+
+#: ../templates/hosts.tpl:13
+#, go-template
+msgid "Supports IPv6 clients"
+msgstr ""
+
+#: ../templates/images.tpl:1
+#, go-format, go-template
+msgid "retina %d×"
+msgstr ""
+
+#: ../templates/images.tpl:2
+#, go-template
+msgid "downscaled"
+msgstr ""
+
+#: ../templates/images.tpl:3
+#, go-template
+msgid "upscaled"
+msgstr ""
+
+#. TRANSLATORS: The URL a link points at
+#: ../templates/images.tpl:6 ../templates/links.tpl:21 ../templates/unsubscribe.tpl:11
+#, go-template
+msgid "No TLS"
+msgstr ""
+
+#. TRANSLATORS: The URL a link points at
+#: ../templates/images.tpl:6 ../templates/links.tpl:21 ../templates/unsubscribe.tpl:11
+#, go-template
+msgid "All links should use https"
+msgstr ""
+
+#: ../templates/images.tpl:8 ../templates/links.tpl:24
+#, go-template
+msgid "Parameters"
+msgstr ""
+
+#: ../templates/images.tpl:18
+#, go-template
+msgid "Srcset size"
+msgstr ""
+
+#: ../templates/images.tpl:22 ../templates/images.tpl:24 ../templates/links.tpl:34 ../templates/links.tpl:36
+#, go-template
+msgid "HTTP Response"
+msgstr ""
+
+#: ../templates/images.tpl:27
+#, go-template
+msgid "Size"
+msgstr ""
+
+#. TRANSLATORS: How much bigger an image is than it should be
+#: ../templates/images.tpl:27 ../templates/images.tpl:58
+#, go-format, go-template
+msgid "%s bytes"
+msgstr ""
+
+#: ../templates/images.tpl:30 ../templates/links.tpl:39
+#, go-template
+msgid "Redirections"
+msgstr ""
+
+#: ../templates/images.tpl:39 ../templates/links.tpl:48
+#, go-template
+msgid "Content-Type"
+msgstr ""
+
+#: ../templates/images.tpl:42
+#, go-template
+msgid "Image format"
+msgstr ""
+
+#: ../templates/images.tpl:46
+#, go-template
+msgid "Display geometry"
+msgstr ""
+
+#: ../templates/images.tpl:48
+#, go-template
+msgid "Display width"
+msgstr ""
+
+#: ../templates/images.tpl:52
+#, go-template
+msgid "Display height"
+msgstr ""
+
+#: ../templates/images.tpl:55
+#, go-template
+msgid "Image geometry"
+msgstr ""
+
+#. TRANSLATORS: How much bigger an image is than it should be
+#: ../templates/images.tpl:58 ../templates/overview.tpl:34
+#, go-template
+msgid "Image bloat"
+msgstr ""
+
+#. TRANSLATORS: How much bigger an image is than it should be
+#: ../templates/images.tpl:58
+#, go-template
+msgid "Bytes that could be saved by resizing image"
+msgstr ""
+
+#: ../templates/images.tpl:60
+#, go-template
+msgid "Alt text"
+msgstr ""
+
+#: ../templates/images.tpl:62
+#, go-template
+msgid "Thumbnail"
+msgstr ""
+
+#: ../templates/images.tpl:75
+#, go-template
+msgid "Non-http images"
+msgstr ""
+
+#: ../templates/links.tpl:9
+#, go-template
+msgid "Non-http Links"
+msgstr ""
+
+#. TRANSLATORS: The visible part of a web link.
+#: ../templates/links.tpl:18
+#, go-template
+msgid "Link"
+msgstr ""
+
+#. TRANSLATORS: The URL a link points at
+#: ../templates/links.tpl:21
+#, go-template
+msgid "URL"
+msgstr ""
+
+#: ../templates/mime.tpl:16
+#, go-template
+msgid "MIME Structure"
+msgstr ""
+
+#: ../templates/mimedisplay.tpl:1
+#, go-template
+msgid "MIME Content"
+msgstr ""
+
+#: ../templates/overview.tpl:1
+#, go-template
+msgid "Summary"
+msgstr ""
+
+#: ../templates/overview.tpl:9
+#, go-template
+msgid "(no subject)"
+msgstr ""
+
+#: ../templates/overview.tpl:14
+#, go-template
+msgid "(no From header)"
+msgstr ""
+
+#: ../templates/overview.tpl:17
+#, go-template
+msgid "The IP address the mail was sent from"
+msgstr ""
+
+#: ../templates/overview.tpl:18
+#, go-template
+msgid "Peer IP"
+msgstr ""
+
+#: ../templates/overview.tpl:19 ../templates/overview.tpl:19 ../templates/overview.tpl:19 ../templates/session.tpl:3
+#, go-template
+msgid "rDNS"
+msgstr ""
+
+#: ../templates/overview.tpl:19 ../templates/session.tpl:3
+#, go-template
+msgid "Valid forward and reverse DNS"
+msgstr ""
+
+#: ../templates/overview.tpl:19 ../templates/session.tpl:3
+#, go-template
+msgid "Missing round trip DNS"
+msgstr ""
+
+#: ../templates/overview.tpl:19 ../templates/session.tpl:3
+#, go-template
+msgid "No reverse DNS for sending IP"
+msgstr ""
+
+#: ../templates/overview.tpl:22
+#, go-template
+msgid "The size of the mail in bytes as sent"
+msgstr ""
+
+#: ../templates/overview.tpl:23
+#, go-template
+msgid "Email size"
+msgstr ""
+
+#: ../templates/overview.tpl:24
+#, go-template
+msgid ">102k"
+msgstr ""
+
+#: ../templates/overview.tpl:24
+#, go-template
+msgid "This may cause the mail to be truncated at Gmail"
+msgstr ""
+
+#: ../templates/overview.tpl:28
+#, go-template
+msgid "The total size of external images loaded when read"
+msgstr ""
+
+#: ../templates/overview.tpl:29
+#, go-template
+msgid "Image weight"
+msgstr ""
+
+#: ../templates/overview.tpl:33
+#, go-template
+msgid "The total weight that could be saved by resizing images"
+msgstr ""
+
+#: ../templates/overview.tpl:40
+#, go-template
+msgid "Authentication"
+msgstr ""
+
+#: ../templates/overview.tpl:45
+#, go-template
+msgid "SPF Aligned"
+msgstr ""
+
+#: ../templates/overview.tpl:47
+#, go-template
+msgid "SPF Unaligned"
+msgstr ""
+
+#: ../templates/overview.tpl:50
+#, go-format, go-template
+msgid "SPF %s"
+msgstr ""
+
+#: ../templates/overview.tpl:55
+#, go-template
+msgid "DKIM Aligned"
+msgstr ""
+
+#: ../templates/overview.tpl:57
+#, go-template
+msgid "DKIM Unaligned"
+msgstr ""
+
+#: ../templates/overview.tpl:59
+#, go-template
+msgid "DKIM Unsigned"
+msgstr ""
+
+#: ../templates/overview.tpl:64
+#, go-template
+msgid "DMARC missing"
+msgstr ""
+
+#: ../templates/overview.tpl:66
+#, go-format, go-template
+msgid "DMARC pass p=%s"
+msgstr ""
+
+#: ../templates/overview.tpl:68
+#, go-format, go-template
+msgid "DMARC fail p=%s"
+msgstr ""
+
+#: ../templates/overview.tpl:76
+#, go-template
+msgid "Awarded to email that complies with best practice requirements published by major providers"
+msgstr ""
+
+#: ../templates/overview.tpl:77
+#, go-template
+msgid "Awarded to email that uses TLS for delivery and external content"
+msgstr ""
+
+#: ../templates/overview.tpl:78
+#, go-template
+msgid "Awarded to email that supports IPv6 for delivery and external content"
+msgstr ""
+
+#: ../templates/overview.tpl:79
+#, go-template
+msgid "Awarded to email that uses appropriately sized external images"
+msgstr ""
+
+#: ../templates/overview.tpl:80
+#, go-template
+msgid "Awarded to the rare email that's excessively aligned"
+msgstr ""
+
+#: ../templates/payload.tpl:1
+#, go-template
+msgid "Payload"
+msgstr ""
+
+#: ../templates/payload.tpl:5
+#, go-template
+msgid "Payload size"
+msgstr ""
+
+#: ../templates/payload.tpl:5
+#, go-format, go-template
+msgid "%d bytes"
+msgstr ""
+
+#: ../templates/payload.tpl:6
+#, go-template
+msgid "Lines"
+msgstr ""
+
+#: ../templates/payload.tpl:7
+#, go-template
+msgid "Longest line"
+msgstr ""
+
+#: ../templates/payload.tpl:7
+#, go-template, go-format
+msgid "Line %d, %d characters"
+msgstr ""
+
+#: ../templates/payload.tpl:7
+#, go-template
+msgid "exceeds maximum allowed 998"
+msgstr ""
+
+#: ../templates/payload.tpl:8
+#, go-template
+msgid "Non-ascii characters"
+msgstr ""
+
+#: ../templates/payload.tpl:10 ../templates/tls.tpl:42
+#, go-template
+msgid "none"
+msgstr ""
+
+#: ../templates/payload.tpl:12 ../templates/payload.tpl:21
+#, go-format, go-template
+msgid "%d, starting on line %d"
+msgstr ""
+
+#: ../templates/payload.tpl:15
+#, go-template
+msgid "Bare line feeds"
+msgstr ""
+
+#: ../templates/payload.tpl:19
+#, go-template
+msgid "every line"
+msgstr ""
+
+#: ../templates/privacy.tpl:1
+#, go-template
+msgid "Privacy"
+msgstr ""
+
+#: ../templates/raw.tpl:1
+#, go-template
+msgid "Raw"
+msgstr ""
+
+#: ../templates/render.tpl:1
+#, go-template
+msgid "Rendered HTML"
+msgstr ""
+
+#: ../templates/render.tpl:35
+#, go-template
+msgid "Change device size..."
+msgstr ""
+
+#: ../templates/render.tpl:84
+#, go-template
+msgid "This message has no HTML parts."
+msgstr ""
+
+#: ../templates/result.tpl:3
+#, go-format, go-template
+msgid "About %s's Email"
+msgstr ""
+
+#: ../templates/result.tpl:3 ../templates/result.tpl:11 ../templates/result.tpl:14
+#, go-template
+msgid "About My Email"
+msgstr ""
+
+#: ../templates/result.tpl:10 ../templates/result.tpl:15 ../templates/result.tpl:17
+#, go-format, go-template
+msgid "See how %s's email implements best practices."
+msgstr ""
+
+#: ../templates/result.tpl:10 ../templates/result.tpl:15 ../templates/result.tpl:17
+#, go-template
+msgid "See how this email implements best practices."
+msgstr ""
+
+#: ../templates/result.tpl:14
+#, go-format, go-template
+msgid "}About %s's Email"
+msgstr ""
+
+#: ../templates/result.tpl:31
+#, go-template
+msgid "Home"
+msgstr ""
+
+#: ../templates/result.tpl:101
+#, go-template
+msgid "yes"
+msgstr ""
+
+#: ../templates/result.tpl:102
+#, go-template
+msgid "no"
+msgstr ""
+
+#: ../templates/session.tpl:3
+#, go-format, go-template
+msgid "SMTP session from %s"
+msgstr ""
+
+#: ../templates/session.tpl:3 ../templates/session.tpl:3
+#, go-template
+msgid "FCrDNS"
+msgstr ""
+
+#: ../templates/settings.tpl:1
+#, go-template
+msgid "Preferences"
+msgstr ""
+
+#: ../templates/settings.tpl:5
+#, go-template
+msgid "Language"
+msgstr ""
+
+#: ../templates/settings.tpl:6
+#, go-template
+msgid "Currently"
+msgstr ""
+
+#: ../templates/settings.tpl:10
+#, go-template
+msgid "Default"
+msgstr ""
+
+#: ../templates/settings.tpl:22
+#, go-template
+msgid "Cancel"
+msgstr ""
+
+#: ../templates/settings.tpl:23
+#, go-template
+msgid "Save"
+msgstr ""
+
+#: ../templates/spf.tpl:1
+#, go-template
+msgid "Sender Policy Framework (SPF)"
+msgstr ""
+
+#: ../templates/spf.tpl:7
+#, go-template
+msgid "pass"
+msgstr ""
+
+#: ../templates/spf.tpl:7
+#, go-template
+msgid "SPF Passes"
+msgstr ""
+
+#: ../templates/spf.tpl:9
+#, go-template
+msgid "SPF Doesn't Pass"
+msgstr ""
+
+#: ../templates/spf.tpl:11
+#, go-template
+msgid "Result"
+msgstr ""
+
+#: ../templates/spf.tpl:15
+#, go-template
+msgid "Explanation"
+msgstr ""
+
+#: ../templates/spf.tpl:16
+#, go-template
+msgid "The number of SPF operations that cause DNS queries"
+msgstr ""
+
+#: ../templates/spf.tpl:16
+#, go-template
+msgid "DNS operations"
+msgstr ""
+
+#: ../templates/spf.tpl:16
+#, go-template
+msgid "> 10"
+msgstr ""
+
+#: ../templates/spf.tpl:16
+#, go-template
+msgid "SPF should perform no more than ten DNS operations"
+msgstr ""
+
+#: ../templates/spf.tpl:17
+#, go-template
+msgid "The number of SPF DNS queries that returned no result"
+msgstr ""
+
+#: ../templates/spf.tpl:17
+#, go-template
+msgid "Void DNS operations"
+msgstr ""
+
+#: ../templates/spf.tpl:17
+#, go-template
+msgid "> 2"
+msgstr ""
+
+#: ../templates/spf.tpl:17
+#, go-template
+msgid "SPF should perform no more than two void DNS operations"
+msgstr ""
+
+#: ../templates/spf.tpl:18
+#, go-template
+msgid "The hostname from the return-path or HELO that was checked"
+msgstr ""
+
+#: ../templates/spf.tpl:18
+#, go-template
+msgid "Hostname checked"
+msgstr ""
+
+#: ../templates/spf.tpl:19
+#, go-template
+msgid "The IP address the mail was received from"
+msgstr ""
+
+#: ../templates/spf.tpl:19
+#, go-template
+msgid "Peer IP address"
+msgstr ""
+
+#: ../templates/spf.tpl:20
+#, go-template
+msgid "Is the domain SPF checks aligned with the From: header?"
+msgstr ""
+
+#: ../templates/spf.tpl:22
+#, go-template
+msgid "SPF Resolution"
+msgstr ""
+
+#: ../templates/tls.tpl:1
+#, go-template
+msgid "Transport Layer Security"
+msgstr ""
+
+#: ../templates/tls.tpl:6
+#, go-template
+msgid "Session encryption"
+msgstr ""
+
+#: ../templates/tls.tpl:11
+#, go-template
+msgid "< TLS 1.2"
+msgstr ""
+
+#: ../templates/tls.tpl:11
+#, go-template
+msgid "Versions of TLS older than 1.2 are not secure"
+msgstr ""
+
+#: ../templates/tls.tpl:14
+#, go-template
+msgid "None"
+msgstr ""
+
+#: ../templates/tls.tpl:19
+#, go-template
+msgid "Cipher suite"
+msgstr ""
+
+#: ../templates/tls.tpl:31
+#, go-template
+msgid "Insecure links"
+msgstr ""
+
+#: ../templates/tls.tpl:31
+#, go-template
+msgid "Links or images not using https"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:1
+#, go-template
+msgid "Unsubscription"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:7
+#, go-template
+msgid "The List-Unsubscribe: header"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:9
+#, go-template
+msgid "Unsubscription URLs from the List-Unsubscribe: header"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:13
+#, go-template
+msgid "A mail client can do a non-interactive unsubscribe, using an RFC 8058 List-Unsubscribe-Post or a mailto: url"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:14
+#, go-template
+msgid "List-Unsubscribe-Post based non-interactive unsubscribe"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:15
+#, go-template
+msgid "A link in the body of the message pointing at an unsubscription web page"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:15
+#, go-template
+msgid "missing"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:15
+#, go-template
+msgid "The heuristics we use to find an unsub link didn't find one"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:16
+#, go-template
+msgid "List-Id: allows recipient software to identify a specific list"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:19
+#, go-template
+msgid "The ID part of the List-Id header is used to identify the list within client software, particularly for routing"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:21
+#, go-template
+msgid "Invalid"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:21
+#, go-template
+msgid "The list id must end with either a valid domain or 'localhost' )"
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:26
+#, go-template
+msgid "List-ID can contain an optional human readable description. If it's missing the bare ID may be used instead."
+msgstr ""
+
+#: ../templates/unsubscribe.tpl:27
+#, go-template
+msgid "The List-ID header can contain a friendly description of the list for use by clients"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:1
+#, go-template
+msgid "Good Practice"
+msgstr ""
+
+#. TRANSLATORS: This contains a link in the middle.
+#: ../templates/yahoogle.tpl:4
+#, go-template
+msgid "Practices that <0>large mailbox providers</0> would like to see in bulk mail streams."
+msgstr ""
+
+#: ../templates/yahoogle.tpl:14
+#, go-template
+msgid "DKIM"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:17
+#, go-template
+msgid "The sending server should have valid reverse DNS"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:22
+#, go-template
+msgid "The SMTP session must be encrypted with TLS"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:24
+#, go-template
+msgid "Opportunistic TLS"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:27
+#, go-template
+msgid "The 822.From domain must not be a freemail provider and must not fail DMARC"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:29
+#, go-template
+msgid "Allowed Domain"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:34
+#, go-template
+msgid "DMARC"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:37
+#, go-template
+msgid "At least one of SPF or DKIM must be aligned"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:42
+#, go-template
+msgid "Must have an RFC 8058 'one click' unsubscribe header"
+msgstr ""
+
+#: ../templates/yahoogle.tpl:47
+#, go-template
+msgid "There must be a link in the body of the message a recipient can follow to unsubscribe"
+msgstr ""
+

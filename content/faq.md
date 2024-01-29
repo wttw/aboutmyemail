@@ -44,6 +44,10 @@ The bigger this is, the longer it will take to display the
 email. This is a minimum - it only counts images referenced
 directly in an `<img>` tag, not srcset or css referenced images.
 
+If you're serving oversized images intentionally, e.g. in the
+hope that they'll display better on hi-dpi displays that's
+fine. This is more to catch unintentional resizing.
+
 ## Email bloat {#faq-bloat}
 
 An email will usually specify the size of an image in the
@@ -195,6 +199,9 @@ recipient may see the more confusing machine-readable
 description in their UI, for instance when managing
 subscriptions.
 
+It's not currently required for delivery to Yahoo or Gmail,
+but you should strongly consider adding it soon.
+
 ## Reverse DNS {#faq-reverse-dns}
 
 Reverse DNS uses the domain name system to find the hostname
@@ -250,14 +257,27 @@ If anything on your [Good Practice](/yahoogle) page is red,
 you're probably not complying with their requirements, and
 your delivery is likely to suffer.
 
-## Does the rendered content model device behaviour?
+## How does all this work? {#faq-making-sausage}
+
+When you visit the home page you're given an email address.
+That address only exists while the page is open - if you close
+or refresh the page that address is deleted and will bounce.
+
+Once the email has been delivered we process it and then
+redirect you to the report page. The URL of that report page
+is a permanent link - you can bookmark it, share it with other
+folks and so on. That permalink will always remain available
+for at least seven days (right now it'll likely stay around
+forever, at least until we run short of storage).
+
+## Does the rendered content model device behaviour? {#faq-render-device}
 
 No. The content is rendered by your browser, not by any
 sort of device emulator. The size selector lets you set
 the viewport size by adjusting the size of the iframe it's
 rendered in, but that's all.
 
-## Where are you getting your list of device sizes from?
+## Where are you getting your list of device sizes from? {#faq-render-size}
 
 It's in [this json file](https://github.com/wttw/aboutmyemail/blob/main/viewports.json), initially
 imported from the excellent [viewportsizer.com](https://viewportsizer.com/devices/).

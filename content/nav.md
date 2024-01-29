@@ -1,0 +1,35 @@
+- About My Email
+  - [About AboutMy.email](/ID/help)
+  - [Summary](/ID)
+- Authentication
+  - [SPF](/ID/spf)
+  - [DKIM](/ID/dkim)
+  - [DMARC](/ID/dmarc)
+  - [BIMI](/ID/bimi)
+- Content
+  - [Remote content](/ID/hosts)
+  - [Links](/ID/links)
+  - [Images](/ID/images)
+  - [MIME](/ID/mime)
+- Rendered HTML
+  - [Original images](/ID/render)
+  - [Details](/ID/detail)
+  - [No images](/ID/noimages)
+  - [Alt text](/ID/alttext)
+- Compliance
+  - [Unsubscription](/ID/unsubscribe)
+  - [Good Practice](/ID/yahoogle)
+  - [TLS](/ID/tls)
+- Delivery
+  - [SMTP](/ID/session)
+  - [Headers](/ID/headers)
+  - [Payload](/ID/payload)
+- Details
+  - [DNS](/ID/dns)
+- Help
+  - [FAQ](/ID/faq)
+  - [Preferences](/ID/settings)
+  - [About Us](/ID/aboutus)
+  - [Contact Us](/ID/contact)
+  - [Privacy Policy](/ID/privacy)
+  - [&copy; Turscar 2023](/ID/copyright)
