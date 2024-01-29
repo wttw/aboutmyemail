@@ -18,14 +18,14 @@ jobs:
             goos: windows
     steps:
       - uses: actions/checkout@v2
-      - uses: wangyoucao577/go-release-action@v1.25
+      - uses: wangyoucao577/go-release-action@v1.46
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: ${{ matrix.goos }}
           goarch: ${{ matrix.goarch }}
           project_path: ./cmd/aboutmyemail
           binary_name: "aboutmyemail"
-      - uses: wangyoucao577/go-release-action@v1.25
+      - uses: wangyoucao577/go-release-action@v1.46
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           goos: ${{ matrix.goos }}
