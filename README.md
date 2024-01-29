@@ -18,7 +18,7 @@ developer-friendly entrypoints.
 ## Utilities
 
 Two small commandline utilities are included that use the API. `aboutmyemail` will submit a message for processing,
-`setbranding` allows uploading content to a white label site.
+`amemanage` provides features for managing a whitelabel site.
 
 Both utilities require an API key to use.
 
