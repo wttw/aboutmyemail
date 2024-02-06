@@ -118,6 +118,7 @@ func main() {
 		From:     cli.From,
 		Ip:       cli.Ip,
 		Payload:  string(cli.Email),
+		Helo:     &cli.Helo,
 		Smtputf8: &smtputf8,
 		To:       cli.To,
 		Options:  &options,

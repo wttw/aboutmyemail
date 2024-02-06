@@ -4,7 +4,7 @@ info:
   description: AboutMy.email
   version: 1.0.0
 security:
-  - BearerAuth: []
+  - BearerAuth: [ ]
 servers:
   - url: 'https://aboutmy.email/api/v1'
 paths:
@@ -185,6 +185,9 @@ components:
         smtputf8:
           type: boolean
           description: Whether the email is localized
+        helo:
+          type: string
+          description: The hostname given in the HELO
         options:
           type: string
           description: "'stage' for staged rendering"
@@ -225,6 +228,9 @@ components:
         smtputf8:
           type: boolean
           description: Whether the email is localized
+        helo:
+          type: string
+          description: The hostname given in the HELO
         options:
           type: string
           description: "'stage' for staged rendering"

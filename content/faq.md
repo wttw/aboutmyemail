@@ -247,6 +247,16 @@ This is known as generic reverse DNS, and is often a sign
 that the server hasn't been properly set up and maybe shouldn't
 be trusted as a source of email.
 
+## HELO or EHLO {#faq-helo}
+
+The first command an email client sends to a server is EHLO (or
+HELO) with a parameter that should be the hostname of the sending
+server.
+
+While this isn't used for authentication (other than some corners
+of SPF usage) some malware and some snowshoe spammers have distinctive
+patterns of HELO.
+
 ## Mailbox Provider Expectations {#faq-yahoogle}
 
 [Yahoo](https://senders.yahooinc.com/best-practices/) and

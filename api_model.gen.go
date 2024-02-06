@@ -44,6 +44,9 @@ type Submit struct {
 	// From The email address for MAIL FROM
 	From string `json:"from"`
 
+	// Helo The hostname given in the HELO
+	Helo *string `json:"helo,omitempty"`
+
 	// Ip The IP address the mail is sent from
 	Ip string `json:"ip"`
 
@@ -73,6 +76,9 @@ type SubmitForm struct {
 
 	// From The email address for MAIL FROM
 	From string `json:"from"`
+
+	// Helo The hostname given in the HELO
+	Helo *string `json:"helo,omitempty"`
 
 	// Ip The IP address the mail is sent from
 	Ip string `json:"ip"`

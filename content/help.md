@@ -2,7 +2,7 @@
 
 AboutMy.email lets you send mail to a unique address, then tells you lots of things about it. It's mostly useful if you're working with email authentication, delivery or design.
 
-### Frequently asked question
+### Frequently asked questions
 
 Check out our [FAQ](faq).
 
