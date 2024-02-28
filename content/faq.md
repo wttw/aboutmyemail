@@ -185,7 +185,7 @@ want to be able to report on how a user unsubscribes).
 
 ## List-ID header {#faq-list-id}
 
-The List-ID header, defined in [RFC 2369](rfc2369), provides
+The List-ID header, defined in [RFC 2919](rfc2919), provides
 a way for mail clients to identify a particular mail stream.
 
 It typically contains two parts - an optional human-readable description  and a machine-readable part that
