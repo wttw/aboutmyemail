@@ -15,8 +15,10 @@ import (
 	"net/http"
 	"net/mail"
 	"os"
+	"strings"
 	"sync"
 	"time"
+	"unicode"
 )
 
 type CLI struct {
@@ -47,27 +49,9 @@ func main() {
 
 	var waiter sync.WaitGroup
 
-	if cli.From == "" || cli.To == "" {
-		msg, err := mail.ReadMessage(bytes.NewReader(cli.Email))
-		if err == nil {
-			if cli.From == "" {
-				returnPath, err := msg.Header.AddressList("ReturnPath")
-				if err == nil && len(returnPath) > 0 {
-					cli.From = returnPath[0].Address
-				} else {
-					from, err := msg.Header.AddressList("From")
-					if err == nil && len(from) > 0 {
-						cli.From = from[0].Address
-					}
-				}
-			}
-			if cli.To == "" {
-				to, err := msg.Header.AddressList("To")
-				if err == nil && len(to) > 0 {
-					cli.To = to[0].Address
-				}
-			}
-		}
+	cli.From, cli.To = defaultAddresses(cli.Email, cli.From, cli.To)
+	if cli.Ascii && localpartNeedsUTF8(cli.From, cli.To) {
+		fatal("--ascii given, but an address localpart is non-ASCII and can't be sent without SMTPUTF8")
 	}
 	if cli.Ip == "" {
 		conn, err := net.Dial("udp", "8.8.8.8:80")
@@ -157,6 +141,53 @@ func main() {
 	}
 
 	waiter.Wait()
+}
+
+// defaultAddresses fills in an empty from or to from the message itself: from
+// the Return-Path (falling back to From) and the To header respectively.
+func defaultAddresses(email []byte, from, to string) (string, string) {
+	if from != "" && to != "" {
+		return from, to
+	}
+	msg, err := mail.ReadMessage(bytes.NewReader(email))
+	if err != nil {
+		return from, to
+	}
+	if from == "" {
+		returnPath, err := msg.Header.AddressList("Return-Path")
+		if err == nil && len(returnPath) > 0 {
+			from = returnPath[0].Address
+		} else {
+			fromList, err := msg.Header.AddressList("From")
+			if err == nil && len(fromList) > 0 {
+				from = fromList[0].Address
+			}
+		}
+	}
+	if to == "" {
+		toList, err := msg.Header.AddressList("To")
+		if err == nil && len(toList) > 0 {
+			to = toList[0].Address
+		}
+	}
+	return from, to
+}
+
+// localpartNeedsUTF8 reports whether any address has a non-ASCII localpart.
+// (A non-ASCII domain can be A-label encoded, so domains are ignored here.)
+func localpartNeedsUTF8(addrs ...string) bool {
+	for _, a := range addrs {
+		local := a
+		if at := strings.LastIndex(a, "@"); at >= 0 {
+			local = a[:at]
+		}
+		for _, r := range local {
+			if r > unicode.MaxASCII {
+				return true
+			}
+		}
+	}
+	return false
 }
 
 // callbackForResults starts a local webserver and prints status updates it receives
